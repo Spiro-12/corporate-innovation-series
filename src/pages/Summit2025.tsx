@@ -8,18 +8,18 @@ import Layout from "@/components/layout/Layout";
 const Summit2025 = () => {
   const speakers = [
     { 
-      name: "Sam Altman", 
-      title: "CEO, OpenAI", 
+      name: "Justin Greenstein", 
+      title: "CEO, 1835i", 
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=300&fit=crop&crop=face"
     },
     { 
-      name: "Demis Hassabis", 
-      title: "CEO, Google DeepMind", 
+      name: "Nicolas Sauvage", 
+      title: "President, TDK Ventures", 
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=300&h=300&fit=crop&crop=face"
     },
     { 
       name: "Jensen Huang", 
-      title: "CEO, NVIDIA", 
+      title: "Deputy GM of Technology and IP Headquarters, TDK", 
       image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=300&h=300&fit=crop&crop=face"
     }
   ];
@@ -72,19 +72,19 @@ const Summit2025 = () => {
           <div className="flex items-center justify-center gap-6 text-muted-foreground mb-6">
             <div className="flex items-center gap-2">
               <Calendar className="h-4 w-4" />
-              <span>October 16-17, 2025</span>
+              <span>December 10, 2025</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
-              <span>New York, NY</span>
+              <span>AIM WA, Floreat WA</span>
             </div>
           </div>
           <h2 className="text-2xl font-semibold text-primary mb-4">
-            "AI-Driven Innovation at Scale"
+            "Building Innovation Engines"
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-            Join 600+ innovation leaders to explore how artificial intelligence is transforming 
-            innovation processes, accelerating R&D, and creating new business models across industries.
+            Join 100+ innovation leaders to explore how corporate innovation & venturing are transforming 
+            growth, accelerating R&D, and creating new business models across industries.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -152,26 +152,20 @@ const Summit2025 = () => {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <Shield className="h-5 w-5" />
-                Event Access & Confidentiality
+                Attendee Profile
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4 text-sm text-muted-foreground">
                 <p>
-                  <strong>Invitation Only:</strong> This summit is limited to C-suite executives, 
-                  VPs of Innovation, Chief Technology Officers, and senior leaders from Fortune 1000 companies.
+                  <strong> </strong> Senior executives and leaders driving innovation, 
+                  strategy, or digital transformation.
                 </p>
                 <p>
-                  <strong>Chatham House Rule:</strong> All sessions operate under the Chatham House Rule, 
-                  allowing participants to use information freely while maintaining speaker confidentiality.
+                  <strong> </strong> Senior executives and leaders driving innovation, strategy, or digital transformation.
                 </p>
                 <p>
-                  <strong>NDA Requirements:</strong> Attendees will be required to sign a mutual NDA 
-                  covering proprietary technologies, strategic initiatives, and competitive insights shared during the event.
-                </p>
-                <p>
-                  <strong>No Recording Policy:</strong> Audio and video recording is strictly prohibited 
-                  to maintain the confidential nature of discussions.
+                  <strong> </strong> Senior executives and leaders driving innovation, strategy, or digital transformation
                 </p>
               </div>
             </CardContent>
