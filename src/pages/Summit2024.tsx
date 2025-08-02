@@ -5,38 +5,88 @@ import { Calendar, MapPin, Quote, Play } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
 const Summit2024 = () => {
-  const speakers = [
-    { 
-      name: "Satya Nadella", 
-      title: "CEO, Microsoft", 
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=300&fit=crop&crop=face"
-    },
-    { 
-      name: "Susan Wojcicki", 
-      title: "Former CEO, YouTube", 
-      image: "https://images.unsplash.com/photo-1438565434616-3ef039228b15?w=300&h=300&fit=crop&crop=face"
-    },
-    { 
-      name: "Marc Benioff", 
-      title: "Chairman & CEO, Salesforce", 
-      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=300&h=300&fit=crop&crop=face"
-    },
-    { 
-      name: "Reid Hoffman", 
-      title: "Co-founder, LinkedIn", 
-      image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=300&h=300&fit=crop&crop=face"
-    },
-    { 
-      name: "Ginni Rometty", 
-      title: "Former CEO, IBM", 
-      image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=300&fit=crop&crop=face"
-    },
-    { 
-      name: "Daniel Ek", 
-      title: "CEO, Spotify", 
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=300&h=300&fit=crop&crop=face"
-    }
-  ];
+const speakers = [
+  {
+    name: "Nicolas Sauvage",
+    title: "TDK Ventures",
+    image: "/images/speakers/nicolas-sauvage.jpg"
+  },
+  {
+    name: "Felipe Novaes",
+    title: "The Bakery",
+    image: "/images/speakers/felipe-novaes.jpg"
+  },
+  {
+    name: "Marion Burchell",
+    title: "Azolla Holdings Pty Ltd",
+    image: "/images/speakers/marion-burchell.jpg"
+  },
+  {
+    name: "Christina Gerakiteys",
+    title: "Utopia X",
+    image: "/images/speakers/christina-gerakiteys.jpg"
+  },
+  {
+    name: "Prof. Paul Bergey",
+    title: "UWA Business School",
+    image: "/images/speakers/paul-bergey.jpg"
+  },
+  {
+    name: "Kemal Anbarci",
+    title: "Chevron Technology Ventures",
+    image: "/images/speakers/kemal-anbarci.jpg"
+  },
+  {
+    name: "Wilson Casado",
+    title: "Corporate Innovation Summit",
+    image: "/images/speakers/wilson-casado.jpg"
+  },
+  {
+    name: "James Edwards",
+    title: "BetterLabs",
+    image: "/images/speakers/james-edwards.jpg"
+  },
+  {
+    name: "Gabe Alves",
+    title: "Extag",
+    image: "/images/speakers/gabe-alves.jpg"
+  },
+  {
+    name: "Prof. Andrew Harris",
+    title: "Novalith Technologies",
+    image: "/images/speakers/andrew-harris.jpg"
+  },
+  {
+    name: "Zane Prickett",
+    title: "Unearthed",
+    image: "/images/speakers/zane-prickett.jpg"
+  },
+  {
+    name: "Holly Bridgwater",
+    title: "Unearthed",
+    image: "/images/speakers/holly-bridgwater.jpg"
+  },
+  {
+    name: "Vish Sahasranamam",
+    title: "Forge Innovation & Ventures",
+    image: "/images/speakers/vish-sahasranamam.jpg"
+  },
+  {
+    name: "Pekka Santasalo",
+    title: "Rio Tinto",
+    image: "/images/speakers/pekka-santasalo.jpg"
+  },
+  {
+    name: "Olivia Brooks",
+    title: "Founders' Factory",
+    image: "/images/speakers/olivia-brooks.jpg"
+  },
+  {
+    name: "Flavia Xavier",
+    title: "South32",
+    image: "/images/speakers/flavia-xavier.jpg"
+  }
+];
 
   const testimonials = [
     {
@@ -93,23 +143,24 @@ const Summit2024 = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4">Event Completed</Badge>
-          <h1 className="text-4xl font-bold tracking-tight mb-6">2024 Innovation Summit</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">2024 Corporate Innovation Summit</h1>
           <div className="flex items-center justify-center gap-6 text-muted-foreground mb-6">
             <div className="flex items-center gap-2">
               <Calendar className="h-4 w-4" />
-              <span>November 14-15, 2024</span>
+              <span>December 02, 2024</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
-              <span>San Francisco, CA</span>
+              <span>PCEC, Perth WA</span>
             </div>
           </div>
           <h2 className="text-2xl font-semibold text-primary mb-4">
-            "Scaling Innovation in Uncertain Times"
+            "The Venture Mindset"
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our most successful summit to date brought together 500+ innovation leaders 
-            to explore resilient innovation strategies and emerging technologies.
+            Our annual summit is the premier gathering for corporate innovation leaders, 
+            bringing together 100+ executives, intra/entrepreneurs, and thought leaders 
+            for a day of insights, networking, and collaboration.
           </p>
         </div>
 
