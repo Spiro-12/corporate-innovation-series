@@ -1,0 +1,58 @@
+import { Link, useLocation } from "react-router-dom";
+import { cn } from "@/lib/utils";
+
+const Header = () => {
+  const location = useLocation();
+
+  const isActive = (path: string) => {
+    if (path === "/" && location.pathname === "/") return true;
+    if (path !== "/" && location.pathname.startsWith(path)) return true;
+    return false;
+  };
+
+  return (
+    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <div className="container flex h-16 items-center">
+        <Link to="/" className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/397d23e7-d842-46e0-b21c-9d3c93ff21b9.png" 
+            alt="Corporate Innovation Series" 
+            className="h-8 w-auto"
+          />
+        </Link>
+        
+        <nav className="flex items-center space-x-8 ml-8">
+          <Link
+            to="/about"
+            className={cn(
+              "text-sm font-medium transition-colors hover:text-primary",
+              isActive("/about") ? "text-primary" : "text-muted-foreground"
+            )}
+          >
+            About
+          </Link>
+          <Link
+            to="/roundtables"
+            className={cn(
+              "text-sm font-medium transition-colors hover:text-primary",
+              isActive("/roundtables") ? "text-primary" : "text-muted-foreground"
+            )}
+          >
+            Roundtables
+          </Link>
+          <Link
+            to="/summit"
+            className={cn(
+              "text-sm font-medium transition-colors hover:text-primary",
+              isActive("/summit") ? "text-primary" : "text-muted-foreground"
+            )}
+          >
+            Summit
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Header;

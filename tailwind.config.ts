@@ -26,7 +26,15 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
+				},
+				brand: {
+					cyan: 'hsl(var(--brand-cyan))',
+					'cyan-light': 'hsl(var(--brand-cyan-light))',
+					'cyan-dark': 'hsl(var(--brand-cyan-dark))',
+					gray: 'hsl(var(--brand-gray))',
+					'gray-light': 'hsl(var(--brand-gray-light))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
