@@ -9,19 +9,33 @@ const Roundtables = () => {
     {
       theme: "Advancing Health Through Collaboration",
       date: "July 2025",
-      summary: "The session brought together voices from government, health, academia, and startups to unpack the barriers and opportunities within WA’s innovation ecosystem — with a sharp focus on healthcare.",
+      summary: "The session brought together voices from government, health, academia, and startups to unpack the barriers and opportunities within WA's innovation ecosystem — with a sharp focus on healthcare.",
+      photos: [
+        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      ],
       attendees: ["WA Department of Health", "UWA", "Perth BioDesign", "The Bakery", "and others"]
     },
     {
       theme: "Corporate Innovation in the Heavy Industry",
       date: "April 2025",
       summary: "We discussed the challenges large organisations face when engaging startups, the role of government in setting direction, and how resilience and the right partnerships are key to success.",
+      photos: [
+        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      ],
       attendees: ["Eramet", "Betterlabs", "CBH", "CitiPacific", "and others"]
     },
     {
       theme: "The First of Many",
       date: "October 2024",
       summary: "This was the first roudntable. We discussed the mission and the vision of the plan moving forward.",
+      photos: [
+        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1473091534298-04dcbce3278c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      ],
       attendees: ["The Bakery", "Visagio", "BHP", "South32", "UWA", "Capricorn", "and others"]
     }
   ];
@@ -94,6 +108,20 @@ const Roundtables = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-6">{roundtable.summary}</p>
+                  
+                  {/* Photo Gallery */}
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+                    {roundtable.photos.map((photo, photoIndex) => (
+                      <div key={photoIndex} className="relative overflow-hidden rounded-lg">
+                        <img 
+                          src={photo} 
+                          alt={`${roundtable.theme} - Photo ${photoIndex + 1}`}
+                          className="w-full h-32 object-cover hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    ))}
+                  </div>
+
                   <div className="flex items-center gap-2 mb-3">
                     <Users className="h-4 w-4 text-muted-foreground" />
                     <span className="text-sm font-medium">Key Participants:</span>
