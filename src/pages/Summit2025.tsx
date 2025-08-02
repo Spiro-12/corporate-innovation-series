@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+
 import { Calendar, MapPin, Shield, Users, Lightbulb, UserPlus } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
@@ -125,16 +125,11 @@ const Summit2025 = () => {
             {speakers.map((speaker, index) => (
               <div key={index} className="text-center group">
                 <div className="relative mb-4 mx-auto w-32 h-32">
-                  <Avatar className="w-32 h-32 border-4 border-primary/20 group-hover:border-primary transition-colors duration-300">
-                    <AvatarImage 
-                      src={speaker.image} 
-                      alt={speaker.name}
-                      className="object-cover"
-                    />
-                    <AvatarFallback className="text-2xl font-semibold bg-primary/10 text-primary">
-                      {speaker.name.split(' ').map(n => n[0]).join('')}
-                    </AvatarFallback>
-                  </Avatar>
+                  <img 
+                    src={speaker.image} 
+                    alt={speaker.name}
+                    className="w-32 h-32 object-cover rounded-lg border-4 border-primary/20 group-hover:border-primary transition-colors duration-300"
+                  />
                 </div>
                 <h3 className="font-semibold text-lg mb-1">{speaker.name}</h3>
                 <p className="text-sm text-muted-foreground">{speaker.title}</p>
@@ -144,7 +139,7 @@ const Summit2025 = () => {
             {/* More speakers coming card */}
             <div className="text-center group">
               <div className="relative mb-4 mx-auto w-32 h-32">
-                <div className="w-32 h-32 border-4 border-dashed border-primary/30 rounded-full flex items-center justify-center bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300">
+                <div className="w-32 h-32 border-4 border-dashed border-primary/30 rounded-lg flex items-center justify-center bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300">
                   <UserPlus className="h-8 w-8 text-primary/60 group-hover:text-primary transition-colors duration-300" />
                 </div>
               </div>

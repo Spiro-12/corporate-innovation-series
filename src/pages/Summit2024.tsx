@@ -6,12 +6,36 @@ import Layout from "@/components/layout/Layout";
 
 const Summit2024 = () => {
   const speakers = [
-    { name: "Satya Nadella", title: "CEO, Microsoft", topic: "AI-First Innovation Strategy" },
-    { name: "Susan Wojcicki", title: "Former CEO, YouTube", topic: "Platform Innovation at Scale" },
-    { name: "Marc Benioff", title: "Chairman & CEO, Salesforce", topic: "The Future of Work" },
-    { name: "Reid Hoffman", title: "Co-founder, LinkedIn", topic: "Network Effects in Innovation" },
-    { name: "Ginni Rometty", title: "Former CEO, IBM", topic: "Leading Through Transformation" },
-    { name: "Daniel Ek", title: "CEO, Spotify", topic: "Disrupting Traditional Industries" }
+    { 
+      name: "Satya Nadella", 
+      title: "CEO, Microsoft", 
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=300&fit=crop&crop=face"
+    },
+    { 
+      name: "Susan Wojcicki", 
+      title: "Former CEO, YouTube", 
+      image: "https://images.unsplash.com/photo-1438565434616-3ef039228b15?w=300&h=300&fit=crop&crop=face"
+    },
+    { 
+      name: "Marc Benioff", 
+      title: "Chairman & CEO, Salesforce", 
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=300&h=300&fit=crop&crop=face"
+    },
+    { 
+      name: "Reid Hoffman", 
+      title: "Co-founder, LinkedIn", 
+      image: "https://images.unsplash.com/photo-1485833077593-4278bba3f11f?w=300&h=300&fit=crop&crop=face"
+    },
+    { 
+      name: "Ginni Rometty", 
+      title: "Former CEO, IBM", 
+      image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=300&h=300&fit=crop&crop=face"
+    },
+    { 
+      name: "Daniel Ek", 
+      title: "CEO, Spotify", 
+      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=300&h=300&fit=crop&crop=face"
+    }
   ];
 
   const testimonials = [
@@ -123,17 +147,19 @@ const Summit2024 = () => {
         {/* Speakers */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-12">Featured Speakers</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {speakers.map((speaker, index) => (
-              <Card key={index} className="border-0 shadow-soft">
-                <CardContent className="pt-6">
-                  <h3 className="font-semibold text-lg mb-1">{speaker.name}</h3>
-                  <p className="text-sm text-muted-foreground mb-3">{speaker.title}</p>
-                  <Badge variant="secondary" className="text-xs">
-                    {speaker.topic}
-                  </Badge>
-                </CardContent>
-              </Card>
+              <div key={index} className="text-center group">
+                <div className="relative mb-4 mx-auto w-32 h-32">
+                  <img 
+                    src={speaker.image} 
+                    alt={speaker.name}
+                    className="w-32 h-32 object-cover rounded-lg border-4 border-primary/20 group-hover:border-primary transition-colors duration-300"
+                  />
+                </div>
+                <h3 className="font-semibold text-lg mb-1">{speaker.name}</h3>
+                <p className="text-sm text-muted-foreground">{speaker.title}</p>
+              </div>
             ))}
           </div>
         </div>
