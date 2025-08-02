@@ -41,7 +41,7 @@ const upcomingRoundtables = [
   },
 ];
 
-  return (
+return (
     <Layout>
       <div className="container py-12">
         {/* Hero Section */}
