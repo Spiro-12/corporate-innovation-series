@@ -56,7 +56,7 @@ const Roundtables = () => {
           <h2 className="text-3xl font-bold mb-8">Upcoming Roundtables</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {upcomingRoundtables.map((roundtable, index) => (
-              <Card key={index} className="border-0 shadow-soft hover:shadow-elegant transition-all duration-300">
+              <Card key={index} className="border-0 shadow-soft hover:shadow-elegant transition-all duration-300 flex flex-col">
                 <CardHeader>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground mb-2">
                     <Calendar className="h-4 w-4" />
@@ -64,11 +64,14 @@ const Roundtables = () => {
                   </div>
                   <CardTitle className="text-xl">{roundtable.theme}</CardTitle>
                 </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-6">{roundtable.description}</p>
-                  <Button className="w-full bg-gradient-to-r from-primary to-primary-glow hover:opacity-90">
+                <CardContent className="flex flex-col flex-1">
+                  <p className="text-muted-foreground mb-6 flex-1">{roundtable.description}</p>
+                  <a
+                    href={`mailto:info@example.com?subject=${encodeURIComponent(`Expression of Interest for ${roundtable.theme}`)}`}
+                    className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 text-primary-foreground"
+                  >
                     Express Interest
-                  </Button>
+                  </a>
                 </CardContent>
               </Card>
             ))}
