@@ -179,45 +179,45 @@ const Summit2025 = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="border-0 shadow-soft">
               <CardHeader>
-                <CardTitle>AI Implementation at Scale</CardTitle>
+                <CardTitle>Scaling Corporate Innovation</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Explore practical strategies for implementing AI across large organizations, 
-                  including infrastructure, talent, and change management considerations.
+                  Explore strategies for moving beyond pilots and prototypes to embed innovation
+                  into the core of the business and deliver measurable impact at scale.
                 </p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-soft">
               <CardHeader>
-                <CardTitle>AI-Accelerated R&D</CardTitle>
+                <CardTitle>Designing Effective Venture Engines</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Discover how AI is transforming research and development processes, 
-                  from drug discovery to materials science and beyond.
+                 Unpack the structures, incentives, and governance
+                  models that enable corporate venture builders, CVCs, and accelerators to thrive.
                 </p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-soft">
               <CardHeader>
-                <CardTitle>Responsible AI Governance</CardTitle>
+                <CardTitle>From Partnership to Equity</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Address the challenges of AI ethics, bias mitigation, and regulatory 
-                  compliance in enterprise AI deployments.
+                  Understand how corporates are evolving from collaborators to investors — and how 
+                  startups are navigating these new hybrid relationships.
                 </p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-soft">
               <CardHeader>
-                <CardTitle>AI-Native Business Models</CardTitle>
+                <CardTitle>Building Innovation from Within</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Learn how companies are building AI-first products and services 
-                  that create new revenue streams and competitive advantages.
+                  Learn how leading organisations are empowering internal talent, 
+                  leveraging existing assets and creating the right culture to launch new ventures from inside the business.
                 </p>
               </CardContent>
             </Card>
