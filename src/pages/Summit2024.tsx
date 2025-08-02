@@ -90,19 +90,19 @@ const speakers = [
 
   const testimonials = [
     {
-      quote: "The most valuable innovation conference I've attended. The networking opportunities and insights were unparalleled.",
-      author: "Sarah Chen",
-      title: "Chief Innovation Officer, Goldman Sachs"
+      quote: "Add quote from attendents",
+      author: "Add name",
+      title: "Add job title, Add company"
     },
     {
-      quote: "Excellent curation of speakers and topics. Left with actionable strategies for scaling our innovation initiatives.",
-      author: "Michael Torres",
-      title: "VP Innovation, Johnson & Johnson"
+      quote: "Add quote from attendents",
+      author: "Add name",
+      title: "Add job title, Add company"
     },
     {
-      quote: "The intimate roundtables allowed for deep, meaningful conversations with peers facing similar challenges.",
-      author: "Lisa Wang",
-      title: "Head of Digital Innovation, Toyota"
+      quote: "Add quote from attendents",
+      author: "Add name",
+      title: "Add job title, Add company"
     }
   ];
 
