@@ -114,23 +114,20 @@ const speakers = [
   ];
 
   const sponsors = {
-    headline: [
-      { name: "Microsoft", logo: "https://logo.clearbit.com/microsoft.com" },
-      { name: "Google", logo: "https://logo.clearbit.com/google.com" },
-      { name: "Amazon Web Services", logo: "https://logo.clearbit.com/aws.amazon.com" }
+    seriesPartner: [
+      { name: "Visagio", logo: "https://logo.clearbit.com/visagio.com" },
+      { name: "City of Perth", logo: "https://logo.clearbit.com/perth.wa.gov.au" }
     ],
-    supporting: [
-      { name: "Salesforce", logo: "https://logo.clearbit.com/salesforce.com" },
-      { name: "IBM", logo: "https://logo.clearbit.com/ibm.com" },
-      { name: "Accenture", logo: "https://logo.clearbit.com/accenture.com" },
-      { name: "McKinsey & Company", logo: "https://logo.clearbit.com/mckinsey.com" },
-      { name: "Boston Consulting Group", logo: "https://logo.clearbit.com/bcg.com" }
+    presentingPartners: [
+      { name: "The Bakery", logo: "https://logo.clearbit.com/thebakery.com" }
     ],
-    community: [
-      { name: "TechCrunch", logo: "https://logo.clearbit.com/techcrunch.com" },
-      { name: "Harvard Business Review", logo: "https://logo.clearbit.com/hbr.org" },
-      { name: "MIT Technology Review", logo: "https://logo.clearbit.com/technologyreview.com" },
-      { name: "Stanford Graduate School of Business", logo: "https://logo.clearbit.com/gsb.stanford.edu" }
+    supportPartners: [
+      { name: "UtopiaX", logo: "https://logo.clearbit.com/utopiax.com" },
+      { name: "Meshpoints", logo: "https://logo.clearbit.com/meshpoints.com" },
+      { name: "Unearthed", logo: "https://logo.clearbit.com/unearthed.solutions" }
+    ],
+    satelliteEvent: [
+      { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com" }
     ]
   };
 
@@ -242,9 +239,9 @@ const speakers = [
           
           <div className="space-y-12">
             <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Headline Sponsors</h3>
+              <h3 className="text-xl font-semibold text-center mb-6">Series Partner</h3>
               <div className="flex flex-wrap justify-center items-center gap-12">
-                {sponsors.headline.map((sponsor, index) => (
+                {sponsors.seriesPartner.map((sponsor, index) => (
                   <div key={index} className="bg-background rounded-lg p-6 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     <img 
                       src={sponsor.logo} 
@@ -266,9 +263,33 @@ const speakers = [
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Supporting Sponsors</h3>
+              <h3 className="text-xl font-semibold text-center mb-6">Presenting Partners</h3>
+              <div className="flex flex-wrap justify-center items-center gap-12">
+                {sponsors.presentingPartners.map((sponsor, index) => (
+                  <div key={index} className="bg-background rounded-lg p-6 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                    <img 
+                      src={sponsor.logo} 
+                      alt={sponsor.name}
+                      className="h-12 w-auto max-w-[150px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                      onError={(e) => {
+                        const target = e.currentTarget as HTMLImageElement;
+                        const sibling = target.nextElementSibling as HTMLElement;
+                        target.style.display = 'none';
+                        if (sibling) sibling.style.display = 'block';
+                      }}
+                    />
+                    <div className="hidden text-center text-sm font-medium text-muted-foreground">
+                      {sponsor.name}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-center mb-6">Support Partners</h3>
               <div className="flex flex-wrap justify-center items-center gap-8">
-                {sponsors.supporting.map((sponsor, index) => (
+                {sponsors.supportPartners.map((sponsor, index) => (
                   <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     <img 
                       src={sponsor.logo} 
@@ -290,9 +311,9 @@ const speakers = [
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Community Partners</h3>
+              <h3 className="text-xl font-semibold text-center mb-6">Satellite event of</h3>
               <div className="flex flex-wrap justify-center items-center gap-6">
-                {sponsors.community.map((sponsor, index) => (
+                {sponsors.satelliteEvent.map((sponsor, index) => (
                   <div key={index} className="bg-background rounded-lg p-3 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     <img 
                       src={sponsor.logo} 

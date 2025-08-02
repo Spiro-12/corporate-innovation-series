@@ -43,23 +43,20 @@ const Summit2025 = () => {
   ];
 
   const sponsors = {
-    headline: [
-      { name: "OpenAI", logo: "https://logo.clearbit.com/openai.com" },
-      { name: "Microsoft", logo: "https://logo.clearbit.com/microsoft.com" },
-      { name: "NVIDIA", logo: "https://logo.clearbit.com/nvidia.com" }
+    presentingPartners: [
+      { name: "The Bakery", logo: "https://logo.clearbit.com/thebakery.com" }
     ],
-    supporting: [
-      { name: "Google", logo: "https://logo.clearbit.com/google.com" },
-      { name: "Anthropic", logo: "https://logo.clearbit.com/anthropic.com" },
-      { name: "Scale AI", logo: "https://logo.clearbit.com/scale.com" },
-      { name: "Hugging Face", logo: "https://logo.clearbit.com/huggingface.co" },
-      { name: "Databricks", logo: "https://logo.clearbit.com/databricks.com" }
+    platinumSponsors: [
+      { name: "TBC", logo: null }
     ],
-    community: [
-      { name: "Stanford HAI", logo: "https://logo.clearbit.com/stanford.edu" },
-      { name: "MIT CSAIL", logo: "https://logo.clearbit.com/mit.edu" },
-      { name: "AI Policy Institute", logo: "https://logo.clearbit.com/aipolicy.org" },
-      { name: "Partnership on AI", logo: "https://logo.clearbit.com/partnershiponai.org" }
+    goldSponsors: [
+      { name: "TBC", logo: null }
+    ],
+    silverSponsors: [
+      { name: "TBC", logo: null }
+    ],
+    satelliteEvent: [
+      { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com" }
     ]
   };
 
@@ -238,9 +235,9 @@ const Summit2025 = () => {
           
           <div className="space-y-12">
             <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Headline Sponsors</h3>
+              <h3 className="text-xl font-semibold text-center mb-6">Presenting Partners</h3>
               <div className="flex flex-wrap justify-center items-center gap-12">
-                {sponsors.headline.map((sponsor, index) => (
+                {sponsors.presentingPartners.map((sponsor, index) => (
                   <div key={index} className="bg-background rounded-lg p-6 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     <img 
                       src={sponsor.logo} 
@@ -262,21 +259,27 @@ const Summit2025 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Supporting Sponsors</h3>
+              <h3 className="text-xl font-semibold text-center mb-6">Platinum Sponsors</h3>
               <div className="flex flex-wrap justify-center items-center gap-8">
-                {sponsors.supporting.map((sponsor, index) => (
+                {sponsors.platinumSponsors.map((sponsor, index) => (
                   <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
-                    <img 
-                      src={sponsor.logo} 
-                      alt={sponsor.name}
-                      className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
-                      onError={(e) => {
-                        const target = e.currentTarget as HTMLImageElement;
-                        const sibling = target.nextElementSibling as HTMLElement;
-                        target.style.display = 'none';
-                        if (sibling) sibling.style.display = 'block';
-                      }}
-                    />
+                    {sponsor.logo ? (
+                      <img 
+                        src={sponsor.logo} 
+                        alt={sponsor.name}
+                        className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        onError={(e) => {
+                          const target = e.currentTarget as HTMLImageElement;
+                          const sibling = target.nextElementSibling as HTMLElement;
+                          target.style.display = 'none';
+                          if (sibling) sibling.style.display = 'block';
+                        }}
+                      />
+                    ) : (
+                      <div className="h-8 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                        {sponsor.name}
+                      </div>
+                    )}
                     <div className="hidden text-center text-xs font-medium text-muted-foreground">
                       {sponsor.name}
                     </div>
@@ -286,9 +289,69 @@ const Summit2025 = () => {
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Community Partners</h3>
+              <h3 className="text-xl font-semibold text-center mb-6">Gold Sponsors</h3>
+              <div className="flex flex-wrap justify-center items-center gap-8">
+                {sponsors.goldSponsors.map((sponsor, index) => (
+                  <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                    {sponsor.logo ? (
+                      <img 
+                        src={sponsor.logo} 
+                        alt={sponsor.name}
+                        className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        onError={(e) => {
+                          const target = e.currentTarget as HTMLImageElement;
+                          const sibling = target.nextElementSibling as HTMLElement;
+                          target.style.display = 'none';
+                          if (sibling) sibling.style.display = 'block';
+                        }}
+                      />
+                    ) : (
+                      <div className="h-8 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                        {sponsor.name}
+                      </div>
+                    )}
+                    <div className="hidden text-center text-xs font-medium text-muted-foreground">
+                      {sponsor.name}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-center mb-6">Silver Sponsors</h3>
+              <div className="flex flex-wrap justify-center items-center gap-8">
+                {sponsors.silverSponsors.map((sponsor, index) => (
+                  <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                    {sponsor.logo ? (
+                      <img 
+                        src={sponsor.logo} 
+                        alt={sponsor.name}
+                        className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        onError={(e) => {
+                          const target = e.currentTarget as HTMLImageElement;
+                          const sibling = target.nextElementSibling as HTMLElement;
+                          target.style.display = 'none';
+                          if (sibling) sibling.style.display = 'block';
+                        }}
+                      />
+                    ) : (
+                      <div className="h-8 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                        {sponsor.name}
+                      </div>
+                    )}
+                    <div className="hidden text-center text-xs font-medium text-muted-foreground">
+                      {sponsor.name}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-center mb-6">Satellite event of</h3>
               <div className="flex flex-wrap justify-center items-center gap-6">
-                {sponsors.community.map((sponsor, index) => (
+                {sponsors.satelliteEvent.map((sponsor, index) => (
                   <div key={index} className="bg-background rounded-lg p-3 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     <img 
                       src={sponsor.logo} 
