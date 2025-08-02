@@ -35,7 +35,7 @@ const Roundtables = () => {
     {
       theme: "Corporate Innovation in the Finance Sector",
       date: "TBC",
-      description: "TBC"
+      description: "The detailed information of this roundtable has not yet been finalised. It will be released soon."
     }
   ];
 
