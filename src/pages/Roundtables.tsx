@@ -67,7 +67,7 @@ const Roundtables = () => {
                 <CardContent className="flex flex-col flex-1">
                   <p className="text-muted-foreground mb-6 flex-1">{roundtable.description}</p>
                   <a
-                    href={`mailto:info@example.com?subject=${encodeURIComponent(`Expression of Interest for ${roundtable.theme}`)}`}
+                    href={`mailto:info@corporateinnovation.org.au?subject=${encodeURIComponent(`Expression of Interest for ${roundtable.theme}`)}`}
                     className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full bg-gradient-to-r from-primary to-primary-glow hover:opacity-90 text-primary-foreground"
                   >
                     Express Interest
