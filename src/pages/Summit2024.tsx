@@ -122,12 +122,12 @@ const speakers = [
       { name: "The Bakery", logo: "https://logo.clearbit.com/thebakery.com" }
     ],
     supportPartners: [
-      { name: "UtopiaX", logo: "https://logo.clearbit.com/utopiax.com" },
+      { name: "UtopiaX", logo: "https://logo.clearbit.com/utopiax.global" },
       { name: "Meshpoints", logo: "https://logo.clearbit.com/meshpoints.com" },
       { name: "Unearthed", logo: "https://logo.clearbit.com/unearthed.solutions" }
     ],
     satelliteEvent: [
-      { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com" }
+      { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com.au" }
     ]
   };
 
