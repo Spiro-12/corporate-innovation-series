@@ -262,12 +262,12 @@ const Summit2025 = () => {
               <h3 className="text-xl font-semibold text-center mb-6">Platinum Sponsors</h3>
               <div className="flex flex-wrap justify-center items-center gap-8">
                 {sponsors.platinumSponsors.map((sponsor, index) => (
-                  <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                  <div key={index} className="bg-background rounded-lg p-3 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     {sponsor.logo ? (
                       <img 
                         src={sponsor.logo} 
                         alt={sponsor.name}
-                        className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        className="h-10 w-auto max-w-[120px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         onError={(e) => {
                           const target = e.currentTarget as HTMLImageElement;
                           const sibling = target.nextElementSibling as HTMLElement;
@@ -276,7 +276,7 @@ const Summit2025 = () => {
                         }}
                       />
                     ) : (
-                      <div className="h-8 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                      <div className="h-10 flex items-center justify-center text-muted-foreground font-medium text-sm">
                         {sponsor.name}
                       </div>
                     )}
@@ -292,12 +292,12 @@ const Summit2025 = () => {
               <h3 className="text-xl font-semibold text-center mb-6">Gold Sponsors</h3>
               <div className="flex flex-wrap justify-center items-center gap-8">
                 {sponsors.goldSponsors.map((sponsor, index) => (
-                  <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                  <div key={index} className="bg-background rounded-lg p-3 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     {sponsor.logo ? (
                       <img 
                         src={sponsor.logo} 
                         alt={sponsor.name}
-                        className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        className="h-10 w-auto max-w-[120px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         onError={(e) => {
                           const target = e.currentTarget as HTMLImageElement;
                           const sibling = target.nextElementSibling as HTMLElement;
@@ -306,7 +306,7 @@ const Summit2025 = () => {
                         }}
                       />
                     ) : (
-                      <div className="h-8 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                      <div className="h-10 flex items-center justify-center text-muted-foreground font-medium text-sm">
                         {sponsor.name}
                       </div>
                     )}
@@ -322,12 +322,12 @@ const Summit2025 = () => {
               <h3 className="text-xl font-semibold text-center mb-6">Silver Sponsors</h3>
               <div className="flex flex-wrap justify-center items-center gap-8">
                 {sponsors.silverSponsors.map((sponsor, index) => (
-                  <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                  <div key={index} className="bg-background rounded-lg p-3 shadow-soft border hover:shadow-elegant transition-all duration-300">
                     {sponsor.logo ? (
                       <img 
                         src={sponsor.logo} 
                         alt={sponsor.name}
-                        className="h-8 w-auto max-w-[100px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        className="h-10 w-auto max-w-[120px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
                         onError={(e) => {
                           const target = e.currentTarget as HTMLImageElement;
                           const sibling = target.nextElementSibling as HTMLElement;
@@ -336,7 +336,7 @@ const Summit2025 = () => {
                         }}
                       />
                     ) : (
-                      <div className="h-8 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                      <div className="h-10 flex items-center justify-center text-muted-foreground font-medium text-sm">
                         {sponsor.name}
                       </div>
                     )}
