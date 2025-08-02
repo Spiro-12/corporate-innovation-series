@@ -4,51 +4,54 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, Users } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
-const pastRoundtables = [
-  {
-    theme: "Advancing Health Through Collaboration",
-    date: "July 2025",
-    summary:
-      "The session brought together voices from government, health, academia, and startups to unpack the barriers and opportunities within WA’s innovation ecosystem — with a sharp focus on healthcare.",
-    attendees: ["WA Department of Health", "UWA", "Perth BioDesign", "The Bakery"],
-  },
-  {
-    theme: "Corporate Innovation in Mining",
-    date: "April 2025",
-    summary:
-      "We discussed the challenges large organisations face when engaging startups, the role of government in setting direction, and how resilience and the right partnerships are key to success.",
-    attendees: ["Spacecubed", "WA Government", "Rio Tinto", "Meshpoints", "The Bakery", "Unearthed"],
-  },
-  {
-    theme: "The First of Many",
-    date: "October 2024",
-    summary:
-      "This was the first roundtable. We discussed the goal and mission of the series and the plan moving forward.",
-    attendees: ["Wilson Casado", "Spiro El Khoury", "Rebeca Mota", "Clarisse Matheus", "Founding Contributors"],
-  },
-];
+const Roundtables = () => {
+  const pastRoundtables = [
+    {
+      theme: "AI in Enterprise: Practical Applications & Ethics",
+      date: "October 2024",
+      summary: "Leading executives discussed real-world AI implementations, ethical considerations, and regulatory frameworks shaping the future of enterprise AI.",
+      attendees: ["Microsoft", "OpenAI", "Salesforce", "IBM", "Accenture", "Boston Consulting Group"]
+    },
+    {
+      theme: "Sustainable Innovation & ESG Integration",
+      date: "September 2024",
+      summary: "Corporate leaders explored how sustainability initiatives are driving innovation and creating new business models across industries.",
+      attendees: ["Unilever", "Tesla", "Patagonia", "Interface", "IKEA", "Schneider Electric"]
+    },
+    {
+      theme: "Future of Work: Remote, Hybrid & Digital Transformation",
+      date: "August 2024",
+      summary: "HR leaders and tech executives shared insights on building resilient organizations in the post-pandemic era.",
+      attendees: ["Slack", "Zoom", "Atlassian", "WeWork", "LinkedIn", "Workday"]
+    }
+  ];
 
-const upcomingRoundtables = [
-  {
-    theme: "An introduction to Corporate Venturing",
-    date: "TBC",
-    description: "Dive into the different models of corporate venturing—from CVCs to venture studios—and what makes them successful.",
-  },
-  {
-    theme: "Corporate Innovation in the Finance Sector",
-    date: "TBC",
-    description: "TBC",
-  },
-];
+  const upcomingRoundtables = [
+    {
+      theme: "Quantum Computing: From Research to Commercial Reality",
+      date: "February 15, 2025",
+      description: "Explore the current state of quantum computing and its potential applications across industries."
+    },
+    {
+      theme: "Web3 & Decentralized Innovation",
+      date: "March 20, 2025",
+      description: "Discuss blockchain technology, NFTs, and decentralized autonomous organizations (DAOs) in enterprise contexts."
+    },
+    {
+      theme: "Biotech Innovation & Healthcare Transformation",
+      date: "April 18, 2025",
+      description: "Examine breakthrough technologies in biotechnology and their impact on healthcare delivery."
+    }
+  ];
 
-return (
+  return (
     <Layout>
       <div className="container py-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold tracking-tight mb-6">Roundtables</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our exclusive roundtables bring together 10-15 senior executives for an intimate 
+            Our exclusive roundtables bring together 15-20 senior executives for intimate 
             discussions on the most pressing innovation challenges and opportunities.
           </p>
         </div>
