@@ -51,7 +51,7 @@ const Roundtables = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold tracking-tight mb-6">Roundtables</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Our exclusive roundtables bring together 15-20 senior executives for intimate 
+            Our exclusive roundtables bring together 10-15 senior executives for an intimate 
             discussions on the most pressing innovation challenges and opportunities.
           </p>
         </div>
