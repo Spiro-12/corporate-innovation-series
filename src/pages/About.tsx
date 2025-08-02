@@ -7,27 +7,27 @@ const About = () => {
     {
       name: "Clarisse Menezes",
       role: "Operations",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612c2c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
+      image: "/lovable-uploads/team-clarisse-menezes.jpg"
     },
     {
       name: "Matheus Mello",
       role: "Operations",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
+      image: "/lovable-uploads/team-matheus-mello.jpg"
     },
     {
       name: "Rebeca Fortes",
       role: "Marketing & Comms",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
+      image: "/lovable-uploads/team-rebeca-fortes.jpg"
     },
     {
       name: "Spiro El Khoury",
       role: "Operations",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
+      image: "/lovable-uploads/team-spiro-el-khoury.jpg"
     },
     {
       name: "Wilson Casado",
       role: "Chairperson",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
+      image: "/lovable-uploads/team-wilson-casado.jpg"
     }
   ];
 
