@@ -18,7 +18,7 @@ const Summit2025 = () => {
       image: "/lovable-uploads/speaker-nicolas-sauvage.jpg"
     },
     { 
-      name: "Jensen Huang", 
+      name: "Georg Kuegerl", 
       title: "Deputy GM of Technology and IP Headquarters, TDK", 
       image: "/lovable-uploads/speaker-jensen-huang.jpg"
     }
