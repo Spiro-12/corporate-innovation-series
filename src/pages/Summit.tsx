@@ -33,7 +33,7 @@ const Summit = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
-                  <span>Perth, WA • December 02, 2024</span>
+                  <span>PCEC, Perth WA • December 02, 2024</span>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Theme: "The Venture Mindset"</h4>
@@ -65,7 +65,7 @@ const Summit = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
-                  <span>Perth, WA • December 10, 2025</span>
+                  <span>AIM WA, Floreat WA • December 10, 2025</span>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">Theme: "Building Innovation Engines"</h4>
