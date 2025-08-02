@@ -5,31 +5,36 @@ import Layout from "@/components/layout/Layout";
 const About = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
-      role: "Program Director",
+      name: "Clarisse Menezes",
+      role: "Operations",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612c2c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
     },
     {
-      name: "Michael Chen",
-      role: "Innovation Lead",
+      name: "Matheus Mello",
+      role: "Operations",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
     },
     {
-      name: "Emily Rodriguez",
+      name: "Rebeca Fortes",
+      role: "Marketing & Comms",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
+    },
+    {
+      name: "Spiro El Khoury",
       role: "Partnership Manager",
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
     },
     {
-      name: "David Kim",
-      role: "Research Analyst",
+      name: "Wilson Casado",
+      role: "Chairperson",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&h=387&q=80"
     }
   ];
 
   const impactStats = [
-    { number: "150+", label: "Companies in Network" },
-    { number: "32", label: "Events Run" },
-    { number: "2,800+", label: "Innovators Connected" }
+    { number: "50+", label: "Companies in Network" },
+    { number: "10+", label: "Events Run" },
+    { number: "150+", label: "Innovators Connected" }
   ];
 
   return (
@@ -37,13 +42,12 @@ const About = () => {
       <div className="container py-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">About Us</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Corporate Innovation Series</h1>
           <div className="max-w-3xl mx-auto">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              The Corporate Innovation Series brings together forward-thinking leaders, 
-              entrepreneurs, and innovators to explore the future of business. Our mission 
-              is to foster meaningful connections, share cutting-edge insights, and drive 
-              collaborative innovation across industries.
+              An independent, non-profit, industry-led education series focused on
+              corporate innovation and venturing. Our goal is to accelerate economic development in the region by
+              increasing corporate participation in the innovation ecosystem.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mt-4">
               We believe that the greatest innovations emerge from diverse perspectives 
