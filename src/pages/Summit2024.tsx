@@ -107,13 +107,10 @@ const speakers = [
   ];
 
   const agenda = [
-    { time: "9:00 AM", session: "Welcome & Opening Keynote", speaker: "Satya Nadella" },
-    { time: "10:15 AM", session: "Panel: AI in Enterprise", speaker: "Multiple Speakers" },
-    { time: "11:30 AM", session: "Innovation Roundtables", speaker: "Breakout Sessions" },
-    { time: "1:00 PM", session: "Networking Lunch", speaker: "" },
-    { time: "2:30 PM", session: "Fireside Chat: Platform Innovation", speaker: "Susan Wojcicki" },
-    { time: "3:45 PM", session: "Workshop: Design Thinking", speaker: "IDEO Team" },
-    { time: "5:00 PM", session: "Closing Keynote", speaker: "Marc Benioff" }
+    { time: "10:20 AM", session: "Opening Keynote: The Venture Mindset in Action", speaker: "Nicolas Sauvage" },
+    { time: "11:00 AM", session: "Panel: Corporate Innovation in Practice", speaker: "Multiple Speakers" },
+    { time: "01:30 PM", session: "Corporate Innovation Workshop", speaker: "Marion Burchell & Christina Gerakiteys" },
+    { time: "03:00 PM", session: "Panel: Founders' Perspective", speaker: "Multiple Speakers" },
   ];
 
   const sponsors = {
@@ -217,7 +214,7 @@ const speakers = [
 
         {/* Agenda Overview */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Day 1 Agenda Highlights</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Agenda Highlights</h2>
           <Card className="border-0 shadow-soft">
             <CardContent className="pt-6">
               <div className="space-y-4">
