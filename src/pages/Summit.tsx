@@ -10,11 +10,11 @@ const Summit = () => {
       <div className="container py-12">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold tracking-tight mb-6">Innovation Summit</h1>
+          <h1 className="text-4xl font-bold tracking-tight mb-6">Corporate Innovation Summit</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Our annual summit is the premier gathering for corporate innovation leaders, 
-            bringing together 500+ executives, entrepreneurs, and thought leaders for 
-            two days of insights, networking, and collaboration.
+            bringing together 100+ executives, intra/entrepreneurs, and thought leaders 
+            for a day of insights, networking, and collaboration.
           </p>
         </div>
 
@@ -33,10 +33,10 @@ const Summit = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
-                  <span>San Francisco, CA • November 14-15, 2024</span>
+                  <span>Perth, WA • December 02, 2024</span>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Theme: "Scaling Innovation in Uncertain Times"</h4>
+                  <h4 className="font-semibold mb-2">Theme: "The Venture Mindset"</h4>
                   <p className="text-muted-foreground">
                     Our most successful summit to date, featuring insights on resilient 
                     innovation strategies, emerging technologies, and adaptive leadership.
@@ -65,12 +65,12 @@ const Summit = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-2 text-muted-foreground">
                   <MapPin className="h-4 w-4" />
-                  <span>New York, NY • October 16-17, 2025</span>
+                  <span>Perth, WA • December 10, 2025</span>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2">Theme: "AI-Driven Innovation at Scale"</h4>
+                  <h4 className="font-semibold mb-2">Theme: "Building Innovation Engines"</h4>
                   <p className="text-muted-foreground">
-                    Explore how artificial intelligence is transforming innovation processes, 
+                    Explore how corporate innovation & venturing are transforming Growth, 
                     accelerating R&D, and creating new business models across industries.
                   </p>
                 </div>
@@ -93,7 +93,7 @@ const Summit = () => {
             </div>
             <h3 className="font-semibold mb-2">Exclusive Networking</h3>
             <p className="text-muted-foreground text-sm">
-              Connect with C-suite executives, VCs, and innovation leaders from Fortune 500 companies.
+              Connect with C-suite executives, CVCs, and innovation leaders from top companies.
             </p>
           </div>
           <div className="text-center">
