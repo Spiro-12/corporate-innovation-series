@@ -88,11 +88,12 @@ const Summit2025 = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90">
-              Register Interest
-            </Button>
-            <Button size="lg" variant="outline">
-              Download Prospectus
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90"
+              onClick={() => window.open('https://events.humanitix.com/corporate-innovation-summit-2025', '_blank')}
+            >
+              Register Now
             </Button>
           </div>
         </div>
