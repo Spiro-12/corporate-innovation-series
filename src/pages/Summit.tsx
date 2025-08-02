@@ -59,7 +59,7 @@ const Summit = () => {
                 <Calendar className="h-6 w-6" />
                 2025 Summit
               </CardTitle>
-              <p className="text-accent-foreground/70">Join Us Next Year</p>
+              <p className="text-accent-foreground/70">Join Us This Year</p>
             </CardHeader>
             <CardContent className="pt-8">
               <div className="space-y-4 mb-8">
