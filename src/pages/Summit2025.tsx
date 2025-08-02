@@ -27,18 +27,18 @@ const Summit2025 = () => {
   const highlights = [
     {
       icon: <Lightbulb className="h-6 w-6" />,
-      title: "AI Innovation Workshops",
-      description: "Hands-on sessions exploring practical AI implementation strategies"
+      title: "Diversity of Sectors",
+      description: "Including financial services, energy & resources, health, etc..."
     },
     {
       icon: <Users className="h-6 w-6" />,
-      title: "Executive Roundtables",
-      description: "Intimate discussions on AI governance, ethics, and business transformation"
+      title: "National Spotlight",
+      description: "An emphasis on Local stories in addition to global benchmarks"
     },
     {
       icon: <Shield className="h-6 w-6" />,
-      title: "AI Safety & Ethics Panel",
-      description: "Leading researchers discuss responsible AI development and deployment"
+      title: "Hands-on Workshop",
+      description: "Building a suitable venturing engine for your organisation"
     }
   ];
 
@@ -162,10 +162,10 @@ const Summit2025 = () => {
                   strategy, or digital transformation.
                 </p>
                 <p>
-                  <strong> </strong> Senior executives and leaders driving innovation, strategy, or digital transformation.
+                  <strong> </strong> Senior executives leading Corporate Venturing, R&D, and Emerging Technology.
                 </p>
                 <p>
-                  <strong> </strong> Senior executives and leaders driving innovation, strategy, or digital transformation
+                  <strong> </strong> Entrepreneurs building solutions for large organisations or launching corporate ventures.
                 </p>
               </div>
             </CardContent>
