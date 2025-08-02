@@ -352,11 +352,11 @@ const Summit2025 = () => {
               <h3 className="text-xl font-semibold text-center mb-6">Satellite event of</h3>
               <div className="flex flex-wrap justify-center items-center gap-6">
                  {sponsors.satelliteEvent.map((sponsor, index) => (
-                   <div key={index} className="bg-background rounded-lg p-5 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                   <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
                      <img 
                        src={sponsor.logo} 
                        alt={sponsor.name}
-                       className="h-10 w-auto max-w-[120px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                       className="h-12 w-auto max-w-[140px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
                       onError={(e) => {
                         const target = e.currentTarget as HTMLImageElement;
                         const sibling = target.nextElementSibling as HTMLElement;
