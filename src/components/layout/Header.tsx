@@ -1,5 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { ChevronDown } from "lucide-react";
 
 const Header = () => {
   const location = useLocation();
@@ -40,15 +47,27 @@ const Header = () => {
           >
             Roundtables
           </Link>
-          <Link
-            to="/summit"
-            className={cn(
-              "text-sm font-medium transition-colors hover:text-primary",
+          <DropdownMenu>
+            <DropdownMenuTrigger className={cn(
+              "flex items-center gap-1 text-sm font-medium transition-colors hover:text-primary",
               isActive("/summit") ? "text-primary" : "text-muted-foreground"
-            )}
-          >
-            Summit
-          </Link>
+            )}>
+              Summit
+              <ChevronDown className="h-3 w-3" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="bg-background border shadow-lg">
+              <DropdownMenuItem asChild>
+                <Link to="/summit/2024" className="w-full">
+                  2024 Summit
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link to="/summit/2025" className="w-full">
+                  2025 Summit
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </nav>
       </div>
     </header>

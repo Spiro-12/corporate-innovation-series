@@ -161,11 +161,15 @@ const speakers = [
         {/* Video Highlights */}
         <div className="mb-16">
           <Card className="border-0 shadow-elegant overflow-hidden">
-            <div className="relative h-64 bg-gradient-to-r from-primary to-primary-glow flex items-center justify-center">
-              <Button size="lg" variant="secondary" className="group">
-                <Play className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform" />
-                Watch Summit Highlights
-              </Button>
+            <div className="relative h-0 pb-[56.25%] overflow-hidden">
+              <iframe 
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                title="2024 Corporate Innovation Summit Highlights"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </Card>
         </div>
