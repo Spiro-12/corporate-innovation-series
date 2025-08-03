@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
-import { Calendar, MapPin, Shield, Users, Lightbulb, UserPlus } from "lucide-react";
+import { Calendar, MapPin, Shield, Users, Lightbulb, UserPlus, Mic, Handshake, DollarSign } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
 const Summit2025 = () => {
@@ -366,6 +366,65 @@ const Summit2025 = () => {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Ways to Get Involved Section */}
+        <div className="mt-16 mb-16 bg-slate-900 rounded-2xl p-12 text-white">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4">Ways to Get Involved</h2>
+            <p className="text-slate-300 max-w-2xl mx-auto">
+              Join us as a speaker, partner, or sponsor and be part of Australia's premier corporate innovation event.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 bg-cyan-500/20 rounded-lg flex items-center justify-center">
+                <Mic className="h-8 w-8 text-cyan-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Speaker</h3>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li>• Share your innovation expertise</li>
+                <li>• Connect with industry leaders</li>
+                <li>• Showcase your company's innovations</li>
+                <li>• Build thought leadership</li>
+              </ul>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 bg-cyan-500/20 rounded-lg flex items-center justify-center">
+                <Handshake className="h-8 w-8 text-cyan-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Partner</h3>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li>• Collaborate on event content</li>
+                <li>• Co-create valuable experiences</li>
+                <li>• Access to attendee networks</li>
+                <li>• Joint marketing opportunities</li>
+              </ul>
+            </div>
+            
+            <div className="text-center">
+              <div className="w-16 h-16 mx-auto mb-6 bg-cyan-500/20 rounded-lg flex items-center justify-center">
+                <DollarSign className="h-8 w-8 text-cyan-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-4">Sponsor</h3>
+              <ul className="space-y-2 text-slate-300 text-sm">
+                <li>• Maximum brand visibility</li>
+                <li>• Direct access to decision makers</li>
+                <li>• Custom activation opportunities</li>
+                <li>• Comprehensive marketing package</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="flex justify-center">
+            <a href="mailto:info@corporateinnovation.org.au?subject=Summit Involvement Inquiry">
+              <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
+                Contact Us
+              </Button>
+            </a>
           </div>
         </div>
       </div>

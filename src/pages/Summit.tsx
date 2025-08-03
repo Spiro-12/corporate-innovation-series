@@ -85,6 +85,37 @@ const Summit = () => {
           </Card>
         </div>
 
+        {/* Features Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="text-center">
+            <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-lg flex items-center justify-center">
+              <Users className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="font-semibold mb-2">Exclusive Networking</h3>
+            <p className="text-muted-foreground text-sm">
+              Connect with C-suite executives, CVCs, and innovation leaders from top companies.
+            </p>
+          </div>
+          <div className="text-center">
+            <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-lg flex items-center justify-center">
+              <Lightbulb className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="font-semibold mb-2">Cutting-Edge Insights</h3>
+            <p className="text-muted-foreground text-sm">
+              Learn from industry pioneers sharing their latest innovations and strategic insights.
+            </p>
+          </div>
+          <div className="text-center">
+            <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-lg flex items-center justify-center">
+              <Handshake className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="font-semibold mb-2">Strategic Partnerships</h3>
+            <p className="text-muted-foreground text-sm">
+              Forge partnerships and collaborations that drive innovation across industries.
+            </p>
+          </div>
+        </div>
+
         {/* Ways to Get Involved Section */}
         <div className="mt-16 mb-16 bg-slate-900 rounded-2xl p-12 text-white">
           <div className="text-center mb-12">
@@ -141,37 +172,6 @@ const Summit = () => {
                 Contact Us
               </Button>
             </a>
-          </div>
-        </div>
-
-        {/* Features Section */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="text-center">
-            <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-lg flex items-center justify-center">
-              <Users className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="font-semibold mb-2">Exclusive Networking</h3>
-            <p className="text-muted-foreground text-sm">
-              Connect with C-suite executives, CVCs, and innovation leaders from top companies.
-            </p>
-          </div>
-          <div className="text-center">
-            <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-lg flex items-center justify-center">
-              <Lightbulb className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="font-semibold mb-2">Cutting-Edge Insights</h3>
-            <p className="text-muted-foreground text-sm">
-              Learn from industry pioneers sharing their latest innovations and strategic insights.
-            </p>
-          </div>
-          <div className="text-center">
-            <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-lg flex items-center justify-center">
-              <Handshake className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="font-semibold mb-2">Strategic Partnerships</h3>
-            <p className="text-muted-foreground text-sm">
-              Forge partnerships and collaborations that drive innovation across industries.
-            </p>
           </div>
         </div>
       </div>
