@@ -57,6 +57,11 @@ const Header = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="bg-background border shadow-lg">
               <DropdownMenuItem asChild>
+                <Link to="/summit" className="w-full">
+                  Summit Overview
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
                 <Link to="/summit/2024" className="w-full">
                   2024 Summit
                 </Link>
