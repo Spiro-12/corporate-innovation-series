@@ -135,16 +135,12 @@ const Summit = () => {
             </div>
           </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center">
             <a href="mailto:info@corporateinnovation.org.au?subject=Summit Involvement Inquiry">
               <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white">
                 Contact Us
               </Button>
             </a>
-            <Button size="lg" variant="outline" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900">
-              <FileText className="mr-2 h-4 w-4" />
-              Download Partnership Pack
-            </Button>
           </div>
         </div>
 
