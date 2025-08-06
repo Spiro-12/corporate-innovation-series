@@ -9,7 +9,7 @@ const speakers = [
   {
     name: "Nicolas Sauvage",
     title: "TDK Ventures",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/nicolas-sauvage.jpg"
+    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/nicolas-sauvage.jpg"
   },
   {
     name: "Felipe Novaes",

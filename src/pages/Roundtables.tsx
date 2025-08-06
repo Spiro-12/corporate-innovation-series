@@ -11,9 +11,9 @@ const Roundtables = () => {
       date: "July 2025",
       summary: "The session brought together voices from government, health, academia, and startups to unpack the barriers and opportunities within WA's innovation ecosystem — with a sharp focus on healthcare.",
       photos: [
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/health-collaboration-1.jpg",
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/health-collaboration-2.jpg",
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/health-collaboration-3.jpg"
+        "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/roundtables/health-collaboration-1.jpg",
+        "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/roundtables/health-collaboration-2.jpg",
+        "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/roundtables/health-collaboration-3.jpg"
       ],
       attendees: ["WA Department of Health", "UWA", "Perth BioDesign", "The Bakery", "and others"]
     },
