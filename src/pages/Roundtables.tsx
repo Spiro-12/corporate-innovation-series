@@ -11,9 +11,10 @@ const Roundtables = () => {
       date: "July 2025",
       summary: "The session brought together voices from government, health, academia, and startups to unpack the barriers and opportunities within WA's innovation ecosystem — with a sharp focus on healthcare.",
       photos: [
-        "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/roundtables/health-collaboration-1.jpg",
-        "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/roundtables/health-collaboration-2.jpg",
-        "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/roundtables/health-collaboration-3.jpg"
+        "assets/images/roundtables/COI-Session 3 (4).jpg",
+        "assets/images/roundtables/COI-Session 3 (3).jpg",
+        "assets/images/roundtables/COI-Session 3 (2).jpg",
+        "assets/images/roundtables/COI-Session 3 (1).jpg"
       ],
       attendees: ["WA Department of Health", "UWA", "Perth BioDesign", "The Bakery", "and others"]
     },
@@ -22,8 +23,8 @@ const Roundtables = () => {
       date: "April 2025",
       summary: "We discussed the challenges large organisations face when engaging startups, the role of government in setting direction, and how resilience and the right partnerships are key to success.",
       photos: [
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/heavy-industry-1.jpg",
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/heavy-industry-2.jpg"
+        "assets/images/roundtables/COI-Session 2 (2).jpg",
+        "assets/images/roundtables/COI-Session 2 (1).jpg"
       ],
       attendees: ["Eramet", "Betterlabs", "CBH", "CitiPacific", "and others"]
     },
@@ -32,9 +33,9 @@ const Roundtables = () => {
       date: "October 2024",
       summary: "This was the first roudntable. We discussed the mission and the vision of the plan moving forward.",
       photos: [
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/first-roundtable-1.jpg",
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/first-roundtable-2.jpg",
-        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/first-roundtable-3.jpg"
+        "assets/images/roundtables/COI-Session 1 (3).jpg",
+        "assets/images/roundtables/COI-Session 1 (2).jpg",
+        "assets/images/roundtables/COI-Session 1 (1).jpg"
       ],
       attendees: ["The Bakery", "Visagio", "BHP", "South32", "UWA", "Capricorn", "and others"]
     }
