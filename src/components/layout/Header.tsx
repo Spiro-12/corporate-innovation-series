@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container flex h-16 items-center">
         <Link to="/" className="flex items-center space-x-3">
           <img 
-            src="https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/site/logo.png" 
+            src="assets/images/site/Logo" 
             alt="Corporate Innovation Series" 
             className="h-8 w-auto"
           />
