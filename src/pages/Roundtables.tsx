@@ -33,9 +33,9 @@ const Roundtables = () => {
       date: "October 2024",
       summary: "This was the first roudntable. We discussed the mission and the vision of the plan moving forward.",
       photos: [
-        "assets/images/roundtables/COI-Session 1 (3).jpg",
-        "assets/images/roundtables/COI-Session 1 (2).jpg",
-        "assets/images/roundtables/COI-Session 1 (1).jpg"
+        "assets/images/roundtables/COI-Session 1 (3).jpeg",
+        "assets/images/roundtables/COI-Session 1 (2).jpeg",
+        "assets/images/roundtables/COI-Session 1 (1).jpeg"
       ],
       attendees: ["The Bakery", "Visagio", "BHP", "South32", "UWA", "Capricorn", "and others"]
     }
