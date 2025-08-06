@@ -7,27 +7,22 @@ const About = () => {
     {
       name: "Clarisse Menezes",
       role: "Operations",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Clarisse-Menzes.jpg"
+      image: "/assets/images/team/Clarisse-Menzes.jpg"
     },
     {
       name: "Matheus Mello",
       role: "Operations",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Matheus-Mello.jpg"
-    },
-    {
-      name: "Rebeca Fortes",
-      role: "Marketing & Comms",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Rebeca-Fortes.jpg"
+      image: "/assets/images/team/Matheus-Mello.jpg"
     },
     {
       name: "Spiro El Khoury",
       role: "Operations",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Spiro-ElKhoury.png"
+      image: "/assets/images/team/Spiro-ElKhoury.png"
     },
     {
       name: "Wilson Casado",
       role: "Chairperson",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Wilson-Casado.png"
+      image: "/assets/images/team/Wilson-Casado.png"
     }
   ];
 

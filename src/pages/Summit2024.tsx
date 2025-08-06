@@ -9,82 +9,82 @@ const speakers = [
   {
     name: "Nicolas Sauvage",
     title: "TDK Ventures",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Nicolas-Sauvage.png"
+    image: "/assets/images/speakers/2024/Nicolas-Sauvage.png"
   },
   {
     name: "Felipe Novaes",
     title: "The Bakery",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Felipe-Novaes.png"
+    image: "/assets/images/speakers/2024/Felipe-Novaes.png"
   },
   {
     name: "Marion Burchell",
     title: "Azolla Holdings Pty Ltd",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Marion-Burchell.png"
+    image: "/assets/images/speakers/2024/Marion-Burchell.png"
   },
   {
     name: "Christina Gerakiteys",
     title: "Utopia X",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Christina-Gerakiteys.png"
+    image: "/assets/images/speakers/2024/Christina-Gerakiteys.png"
   },
   {
     name: "Prof. Paul Bergey",
     title: "UWA Business School",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Paul-Bergey.png"
+    image: "/assets/images/speakers/2024/Paul-Bergey.png"
   },
   {
     name: "Kemal Anbarci",
     title: "Chevron Technology Ventures",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Kemal-Ambarci.png"
+    image: "/assets/images/speakers/2024/Kemal-Ambarci.png"
   },
   {
     name: "Wilson Casado",
     title: "Corporate Innovation Summit",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Wilson-Casado.png"
+    image: "/assets/images/speakers/2024/Wilson-Casado.png"
   },
   {
     name: "James Edwards",
     title: "BetterLabs",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/James-Edwards.png"
+    image: "/assets/images/speakers/2024/James-Edwards.png"
   },
   {
     name: "Gabe Alves",
     title: "Extag",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Gabe-Alves.png"
+    image: "/assets/images/speakers/2024/Gabe-Alves.png"
   },
   {
     name: "Prof. Andrew Harris",
     title: "Novalith Technologies",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Andrew-Harris.png"
+    image: "/assets/images/speakers/2024/Andrew-Harris.png"
   },
   {
     name: "Zane Prickett",
     title: "Unearthed",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Zane-Prickett.png"
+    image: "/assets/images/speakers/2024/Zane-Prickett.png"
   },
   {
     name: "Holly Bridgwater",
     title: "Unearthed",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Holly-Bridgwater.png"
+    image: "/assets/images/speakers/2024/Holly-Bridgwater.png"
   },
   {
     name: "Vish Sahasranamam",
     title: "Forge Innovation & Ventures",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Vish-Sahasranamam.png"
+    image: "/assets/images/speakers/2024/Vish-Sahasranamam.png"
   },
   {
     name: "Pekka Santasalo",
     title: "Rio Tinto",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Pekka-Santasalo.png"
+    image: "/assets/images/speakers/2024/Pekka-Santasalo.png"
   },
   {
     name: "Olivia Brooks",
     title: "Founders' Factory",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Olivia-Brooks.png"
+    image: "/assets/images/speakers/2024/Olivia-Brooks.png"
   },
   {
     name: "Flavia Xavier",
     title: "South32",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Flavia-Xavier.png"
+    image: "/assets/images/speakers/2024/Flavia-Xavier.png"
   }
 ];
 
