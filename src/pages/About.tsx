@@ -22,7 +22,7 @@ const About = () => {
     {
       name: "Spiro El Khoury",
       role: "Operations",
-      image: "/lovable-uploads/f4b98a29-b3db-4dca-b85f-479c7469ee54.png"
+      image: "/lovable-uploads/397d23e7-d842-46e0-b21c-9d3c93ff21b9.png"
     },
     {
       name: "Wilson Casado",
