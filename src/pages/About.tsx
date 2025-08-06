@@ -7,27 +7,22 @@ const About = () => {
     {
       name: "Clarisse Menezes",
       role: "Operations",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Clarisse-Menzes.jpg"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Clarisse-Menzes.jpg?v=2"
     },
     {
       name: "Matheus Mello",
       role: "Operations",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Matheus-Mello.jpg"
-    },
-    {
-      name: "Rebeca Fortes",
-      role: "Marketing & Comms",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Rebeca-Fortes.jpg"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Matheus-Mello.jpg?v=2"
     },
     {
       name: "Spiro El Khoury",
       role: "Operations",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Spiro-ElKhoury.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Spiro-ElKhoury.png?v=2"
     },
     {
       name: "Wilson Casado",
       role: "Chairperson",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Wilson-Casado.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Wilson-Casado.png?v=2"
     }
   ];
 
