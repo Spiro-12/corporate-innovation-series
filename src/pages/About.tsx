@@ -27,7 +27,7 @@ const About = () => {
     {
       name: "Wilson Casado",
       role: "Chairperson",
-      image: "assets/images/team/Wilson-Casado.jpg"
+      image: "assets/images/team/Wilson-Casado.png"
     }
   ];
 
