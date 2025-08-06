@@ -10,17 +10,17 @@ const Summit2025 = () => {
     { 
       name: "Justin Greenstein", 
       title: "CEO, 1835i", 
-      image: "/lovable-uploads/speaker-justin-greenstein.jpg"
+      image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2025/justin-greenstein.jpg"
     },
     { 
       name: "Nicolas Sauvage", 
       title: "President, TDK Ventures", 
-      image: "/lovable-uploads/speaker-nicolas-sauvage.jpg"
+      image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2025/nicolas-sauvage.jpg"
     },
     { 
       name: "Georg Kuegerl", 
       title: "Deputy GM of Technology and IP Headquarters, TDK", 
-      image: "/lovable-uploads/speaker-jensen-huang.jpg"
+      image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2025/georg-kuegerl.jpg"
     }
   ];
 

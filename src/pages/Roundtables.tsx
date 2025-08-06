@@ -11,9 +11,9 @@ const Roundtables = () => {
       date: "July 2025",
       summary: "The session brought together voices from government, health, academia, and startups to unpack the barriers and opportunities within WA's innovation ecosystem — with a sharp focus on healthcare.",
       photos: [
-        "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/health-collaboration-1.jpg",
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/health-collaboration-2.jpg",
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/health-collaboration-3.jpg"
       ],
       attendees: ["WA Department of Health", "UWA", "Perth BioDesign", "The Bakery", "and others"]
     },
@@ -22,8 +22,8 @@ const Roundtables = () => {
       date: "April 2025",
       summary: "We discussed the challenges large organisations face when engaging startups, the role of government in setting direction, and how resilience and the right partnerships are key to success.",
       photos: [
-        "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/heavy-industry-1.jpg",
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/heavy-industry-2.jpg"
       ],
       attendees: ["Eramet", "Betterlabs", "CBH", "CitiPacific", "and others"]
     },
@@ -32,9 +32,9 @@ const Roundtables = () => {
       date: "October 2024",
       summary: "This was the first roudntable. We discussed the mission and the vision of the plan moving forward.",
       photos: [
-        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-        "https://images.unsplash.com/photo-1473091534298-04dcbce3278c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/first-roundtable-1.jpg",
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/first-roundtable-2.jpg",
+        "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/roundtables/first-roundtable-3.jpg"
       ],
       attendees: ["The Bakery", "Visagio", "BHP", "South32", "UWA", "Capricorn", "and others"]
     }
