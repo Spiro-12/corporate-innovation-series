@@ -22,7 +22,7 @@ const About = () => {
     {
       name: "Spiro El Khoury",
       role: "Operations",
-      image: "https://raw.githubusercontent.com/Spiro-12/corporate-spark-site/main/assets/images/team/Spiro-ElKhoury.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Spiro-ElKhoury.png"
     },
     {
       name: "Wilson Casado",
