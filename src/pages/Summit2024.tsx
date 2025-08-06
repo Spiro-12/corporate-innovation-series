@@ -9,82 +9,82 @@ const speakers = [
   {
     name: "Nicolas Sauvage",
     title: "TDK Ventures",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/nicolas-sauvage.jpg"
+    image: "assets/images/speakers/2024/Nicolas-Sauvage.png"
   },
   {
     name: "Felipe Novaes",
     title: "The Bakery",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/felipe-novaes.jpg"
+    image: "assets/images/speakers/2024/Felipe-Novaes.png"
   },
   {
     name: "Marion Burchell",
     title: "Azolla Holdings Pty Ltd",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/marion-burchell.jpg"
+    image: "assets/images/speakers/2024/Marion-Burchell.png"
   },
   {
     name: "Christina Gerakiteys",
     title: "Utopia X",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/christina-gerakiteys.jpg"
+    image: "assets/images/speakers/2024/Christina-Gerakiteys.png"
   },
   {
     name: "Prof. Paul Bergey",
     title: "UWA Business School",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/paul-bergey.jpg"
+    image: "assets/images/speakers/2024/Paul-Bergey.png"
   },
   {
     name: "Kemal Anbarci",
     title: "Chevron Technology Ventures",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/kemal-anbarci.jpg"
+    image: "assets/images/speakers/2024/Kemal-Ambarci.png"
   },
   {
     name: "Wilson Casado",
     title: "Corporate Innovation Summit",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/wilson-casado.jpg"
+    image: "assets/images/speakers/2024/Wilson-Casado.png"
   },
   {
     name: "James Edwards",
     title: "BetterLabs",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/james-edwards.jpg"
+    image: "assets/images/speakers/2024/James-Edwards.png"
   },
   {
     name: "Gabe Alves",
     title: "Extag",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/gabe-alves.jpg"
+    image: "assets/images/speakers/2024/Gabe-Alves.png"
   },
   {
     name: "Prof. Andrew Harris",
     title: "Novalith Technologies",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/andrew-harris.jpg"
+    image: "assets/images/speakers/2024/Andrew-Harris.png"
   },
   {
     name: "Zane Prickett",
     title: "Unearthed",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/zane-prickett.jpg"
+    image: "assets/images/speakers/2024/Zane-Prickett.png"
   },
   {
     name: "Holly Bridgwater",
     title: "Unearthed",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/holly-bridgwater.jpg"
+    image: "assets/images/speakers/2024/Holly-Bridgwater.png"
   },
   {
     name: "Vish Sahasranamam",
     title: "Forge Innovation & Ventures",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/vish-sahasranamam.jpg"
+    image: "assets/images/speakers/2024/Vish-Sahasranamam.png"
   },
   {
     name: "Pekka Santasalo",
     title: "Rio Tinto",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/pekka-santasalo.jpg"
+    image: "assets/images/speakers/2024/Pekka-Santasalo.png"
   },
   {
     name: "Olivia Brooks",
     title: "Founders' Factory",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/olivia-brooks.jpg"
+    image: "assets/images/speakers/2024/Olivia-Brooks.png"
   },
   {
     name: "Flavia Xavier",
     title: "South32",
-    image: "https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/assets/images/speakers/2024/flavia-xavier.jpg"
+    image: "assets/images/speakers/2024/Flavia-Xavier.png"
   }
 ];
 
