@@ -17,7 +17,7 @@ const About = () => {
     {
       name: "Rebeca Fortes",
       role: "Marketing & Comms",
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Rebeca-Fortes.jpg"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/team/Rebeca-Fortes.png"
     },
     {
       name: "Spiro El Khoury",
