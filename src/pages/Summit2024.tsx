@@ -34,7 +34,7 @@ const speakers = [
   {
     name: "Kemal Anbarci",
     title: "Chevron Technology Ventures",
-    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Kemal-Ambarci.png"
+    image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Kemal-Anbarci.png"
   },
   {
     name: "Wilson Casado",
