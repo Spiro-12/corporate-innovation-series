@@ -90,19 +90,19 @@ const speakers = [
 
   const testimonials = [
     {
-      quote: "Add quote from attendents",
-      author: "Add name",
-      title: "Add job title, Add company"
+      quote: "I didn't expect to walk away with this many actionable ideas – and real connections. The intimacy of the conversations made all the difference.",
+      author: "Anonymous",
+      title: "Head of Innovation, ASX-listed company"
     },
     {
-      quote: "Add quote from attendents",
-      author: "Add name",
-      title: "Add job title, Add company"
+      quote: "The quality of attendees and speakers was amazing, all wanting to bring corporate innovation to the next level and willing to be vulnerable and open to how to do things differently.",
+      author: "Anonymous",
+      title: "President, CVC with $500 M AUM"
     },
     {
-      quote: "Add quote from attendents",
-      author: "Add name",
-      title: "Add job title, Add company"
+      quote: "Great presenters with interesting point of view - I learned a lot",
+      author: "Anonymous",
+      title: "Head of Innovation, Tier 1 Mining Company"
     }
   ];
 
