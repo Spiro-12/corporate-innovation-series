@@ -1,11 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useState, useEffect } from "react";
 
 import { Calendar, MapPin, Shield, Users, Lightbulb, UserPlus, Mic, Handshake, DollarSign } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
 const Summit2025 = () => {
+  const [validSpeakers, setValidSpeakers] = useState<any[]>([]);
+
   const speakers = [
     { 
       name: "Justin Greenstein", 
@@ -24,10 +27,35 @@ const Summit2025 = () => {
     }
   ];
 
-  // Filter speakers that have valid images (not placeholder or broken)
-  const validSpeakers = speakers.filter(speaker => {
-    return speaker.image && !speaker.image.includes('placeholder');
-  });
+  // Function to check if image URL actually loads
+  const checkImageExists = (url: string): Promise<boolean> => {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => resolve(true);
+      img.onerror = () => resolve(false);
+      img.src = url;
+    });
+  };
+
+  // Check which speakers have valid images
+  useEffect(() => {
+    const checkSpeakers = async () => {
+      const speakersWithValidImages = [];
+      
+      for (const speaker of speakers) {
+        if (speaker.image) {
+          const imageExists = await checkImageExists(speaker.image);
+          if (imageExists) {
+            speakersWithValidImages.push(speaker);
+          }
+        }
+      }
+      
+      setValidSpeakers(speakersWithValidImages);
+    };
+
+    checkSpeakers();
+  }, []);
 
   const highlights = [
     {
@@ -127,9 +155,10 @@ const Summit2025 = () => {
         </div>
 
         {/* Speakers */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Confirmed Speakers</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {validSpeakers.length > 0 && (
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-center mb-12">Confirmed Speakers</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {validSpeakers.map((speaker, index) => (
               <div key={index} className="text-center group">
                 <div className="relative mb-4 mx-auto w-32 h-32">
@@ -156,6 +185,7 @@ const Summit2025 = () => {
             </div>
           </div>
         </div>
+        )}
 
         {/* NDA & Access Information */}
         <div className="mb-16">
