@@ -155,37 +155,47 @@ const Summit2025 = () => {
         </div>
 
         {/* Speakers */}
-        {validSpeakers.length > 0 && (
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold text-center mb-12">Confirmed Speakers</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {validSpeakers.map((speaker, index) => (
-              <div key={index} className="text-center group">
-                <div className="relative mb-4 mx-auto w-32 h-32">
-                  <img 
-                    src={speaker.image} 
-                    alt={speaker.name}
-                    className="w-32 h-32 object-cover rounded-lg border-4 border-primary/20 group-hover:border-primary transition-colors duration-300"
-                  />
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-center mb-12">Confirmed Speakers</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {validSpeakers.length > 0 ? (
+              <>
+                {validSpeakers.map((speaker, index) => (
+                  <div key={index} className="text-center group">
+                    <div className="relative mb-4 mx-auto w-32 h-32">
+                      <img 
+                        src={speaker.image} 
+                        alt={speaker.name}
+                        className="w-32 h-32 object-cover rounded-lg border-4 border-primary/20 group-hover:border-primary transition-colors duration-300"
+                      />
+                    </div>
+                    <h3 className="font-semibold text-lg mb-1">{speaker.name}</h3>
+                    <p className="text-sm text-muted-foreground">{speaker.title}</p>
+                  </div>
+                ))}
+                
+                {/* More speakers coming card */}
+                <div className="text-center group">
+                  <div className="relative mb-4 mx-auto w-32 h-32">
+                    <div className="w-32 h-32 border-4 border-dashed border-primary/30 rounded-lg flex items-center justify-center bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300">
+                      <UserPlus className="h-8 w-8 text-primary/60 group-hover:text-primary transition-colors duration-300" />
+                    </div>
+                  </div>
+                  <h3 className="font-semibold text-lg mb-1 text-primary">More speakers</h3>
+                  <p className="text-sm text-muted-foreground">to be confirmed soon!</p>
                 </div>
-                <h3 className="font-semibold text-lg mb-1">{speaker.name}</h3>
-                <p className="text-sm text-muted-foreground">{speaker.title}</p>
-              </div>
-            ))}
-            
-            {/* More speakers coming card */}
-            <div className="text-center group">
-              <div className="relative mb-4 mx-auto w-32 h-32">
-                <div className="w-32 h-32 border-4 border-dashed border-primary/30 rounded-lg flex items-center justify-center bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300">
-                  <UserPlus className="h-8 w-8 text-primary/60 group-hover:text-primary transition-colors duration-300" />
+              </>
+            ) : (
+              <div className="col-span-full text-center py-12">
+                <div className="w-16 h-16 mx-auto mb-6 bg-primary/10 rounded-lg flex items-center justify-center">
+                  <Mic className="h-8 w-8 text-primary" />
                 </div>
+                <h3 className="text-xl font-semibold mb-2 text-primary">Speakers will be announced soon</h3>
+                <p className="text-muted-foreground">We're finalizing an incredible lineup of innovation leaders and industry experts.</p>
               </div>
-              <h3 className="font-semibold text-lg mb-1 text-primary">More speakers</h3>
-              <p className="text-sm text-muted-foreground">to be confirmed soon!</p>
-            </div>
+            )}
           </div>
         </div>
-        )}
 
         {/* NDA & Access Information */}
         <div className="mb-16">
