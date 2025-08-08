@@ -164,7 +164,7 @@ const speakers = [
             <div className="relative h-0 pb-[56.25%] overflow-hidden">
               <iframe 
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/xxCaosWNJso?showinfo=0&rel=0&controls=0"
+                src="https://www.youtube.com/embed/xxCaosWNJso"
                 title="2024 Corporate Innovation Summit Highlights"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
