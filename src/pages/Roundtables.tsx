@@ -44,7 +44,7 @@ const Roundtables = () => {
   const upcomingRoundtables = [
     {
       theme: "Corporate Innovation & Venturing - Models, Methods & Real-World Examples",
-      date: "26th of August 2025",
+      date: "26th of August 2025 | 5/45 St George Tce",
       description: "Dive into the different models of corporate venturing—from CVCs to venture studios—and what makes them successful.",
     },
     {
