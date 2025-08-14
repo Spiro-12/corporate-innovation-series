@@ -43,13 +43,13 @@ const Roundtables = () => {
 
   const upcomingRoundtables = [
     {
-      theme: "Introduction to Corporate Venturing",
-      date: "TBC",
+      theme: "Corporate Innovation & Venturing - Models, Methods & Real-World Examples",
+      date: "26th of August 2025",
       description: "Dive into the different models of corporate venturing—from CVCs to venture studios—and what makes them successful.",
     },
     {
       theme: "Corporate Innovation in the Finance Sector",
-      date: "TBC",
+      date: "October 2025",
       description: "The detailed information of this roundtable has not yet been finalised. It will be released soon."
     }
   ];
