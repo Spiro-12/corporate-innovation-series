@@ -18,7 +18,7 @@ const Summit2025 = () => {
     { 
       name: "Nicolas Sauvage", 
       title: "President, TDK Ventures", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Nicolas-Sauvage.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Nicolas-Sauvage.png"
     },
     { 
       name: "Georg Kuegerl", 
