@@ -28,7 +28,7 @@ const Summit2025 = () => {
     { 
       name: "Dr. Kid – Supachai Parchariyanon", 
       title: "CEO and Co-Founder, RISE", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Kid-Supachai.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Kid-Supachai.jpg"
     }
   ];
 
