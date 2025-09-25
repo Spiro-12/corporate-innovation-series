@@ -24,6 +24,11 @@ const Summit2025 = () => {
       name: "Georg Kuegerl", 
       title: "Deputy GM of Technology and IP Headquarters, TDK", 
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Georg-Kuegerl.png"
+    },
+    { 
+      name: "Dr. Kid – Supachai Parchariyanon", 
+      title: "CEO and Co-Founder, RISE", 
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Kid-Supachai.png"
     }
   ];
 
