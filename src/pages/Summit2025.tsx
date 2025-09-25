@@ -95,6 +95,9 @@ const Summit2025 = () => {
     ],
     satelliteEvent: [
       { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com.au" }
+    ],
+    eventPartner: [
+      { name: "TBC", logo: null }
     ]
   };
 
@@ -404,27 +407,59 @@ const Summit2025 = () => {
               </div>
             )}
 
-            <div>
-              <h3 className="text-xl font-semibold text-center mb-6">Satellite event of</h3>
-              <div className="flex flex-wrap justify-center items-center gap-6">
-                 {sponsors.satelliteEvent.map((sponsor, index) => (
-                   <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
-                     <img 
-                       src={sponsor.logo} 
-                       alt={sponsor.name}
-                       className="h-12 w-auto max-w-[140px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
-                      onError={(e) => {
-                        const target = e.currentTarget as HTMLImageElement;
-                        const sibling = target.nextElementSibling as HTMLElement;
-                        target.style.display = 'none';
-                        if (sibling) sibling.style.display = 'block';
-                      }}
-                    />
-                    <div className="hidden text-center text-xs font-medium text-muted-foreground">
-                      {sponsor.name}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-semibold text-center mb-6">Satellite event of</h3>
+                <div className="flex flex-wrap justify-center items-center gap-6">
+                   {sponsors.satelliteEvent.map((sponsor, index) => (
+                     <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                       <img 
+                         src={sponsor.logo} 
+                         alt={sponsor.name}
+                         className="h-12 w-auto max-w-[140px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                        onError={(e) => {
+                          const target = e.currentTarget as HTMLImageElement;
+                          const sibling = target.nextElementSibling as HTMLElement;
+                          target.style.display = 'none';
+                          if (sibling) sibling.style.display = 'block';
+                        }}
+                      />
+                      <div className="hidden text-center text-xs font-medium text-muted-foreground">
+                        {sponsor.name}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="text-xl font-semibold text-center mb-6">Event Partner</h3>
+                <div className="flex flex-wrap justify-center items-center gap-6">
+                   {sponsors.eventPartner.map((sponsor, index) => (
+                     <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                       {sponsor.logo ? (
+                         <img 
+                           src={sponsor.logo} 
+                           alt={sponsor.name}
+                           className="h-12 w-auto max-w-[140px] object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                          onError={(e) => {
+                            const target = e.currentTarget as HTMLImageElement;
+                            const sibling = target.nextElementSibling as HTMLElement;
+                            target.style.display = 'none';
+                            if (sibling) sibling.style.display = 'block';
+                          }}
+                        />
+                       ) : (
+                         <div className="h-12 flex items-center justify-center text-muted-foreground font-medium text-sm">
+                           {sponsor.name}
+                         </div>
+                       )}
+                       <div className="hidden text-center text-xs font-medium text-muted-foreground">
+                         {sponsor.name}
+                       </div>
+                     </div>
+                   ))}
+                </div>
               </div>
             </div>
           </div>
