@@ -97,7 +97,7 @@ const Summit2025 = () => {
       { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com.au" }
     ],
     eventPartner: [
-      { name: "TBC", logo: null }
+      { name: "TBC", logo: "https://logo.clearbit.com/aimwa.com" }
     ]
   };
 
