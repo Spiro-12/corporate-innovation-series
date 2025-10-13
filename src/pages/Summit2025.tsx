@@ -23,7 +23,7 @@ const Summit2025 = () => {
     { 
       name: "Ian Krieger", 
       title: "Innovation Officer APJ, ServiceNow", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Ian-Krieger.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Ian-Krieger.jpg"
     },
     { 
       name: "Dr. Kid – Supachai Parchariyanon", 
