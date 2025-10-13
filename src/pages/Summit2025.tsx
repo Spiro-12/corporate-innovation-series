@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { useState, useEffect } from "react";
 
 import { Calendar, MapPin, Shield, Users, Lightbulb, UserPlus, Mic, Handshake, DollarSign } from "lucide-react";
@@ -8,29 +9,40 @@ import Layout from "@/components/layout/Layout";
 
 const Summit2025 = () => {
   const [validSpeakers, setValidSpeakers] = useState<any[]>([]);
+  const [selectedSpeaker, setSelectedSpeaker] = useState<any>(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   const speakers = [
     { 
       name: "Justin Greenstein", 
       title: "CEO, 1835i", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Justin-Greenstein.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Justin-Greenstein.png",
+      bio: "Biography coming soon."
     },
     { 
       name: "Nicolas Sauvage", 
       title: "President, TDK Ventures", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Nicolas-Sauvage.png"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Nicolas-Sauvage.png",
+      bio: "Nicolas Sauvage is President of TDK Ventures, the corporate venture capital arm of TDK Corporation, where he leads the firm's $500M mandate to invest in early-stage startups driving digital and energy innovation. Since its founding in 2019, TDK Ventures has backed 47 startups under his leadership, including three unicorns—Ascend Elements, Groq, and Silicon Box. Recognized globally, Nicolas has been awarded the GCV Powerlist for six consecutive years. He is also the only Corporate VC who ever received the prestigious Jeff Timmons Award from Kauffman Fellows VC Program. A champion of knowledge-sharing, Nicolas contributes to outlets including Harvard Business Review, London Business School, and INSEAD, and hosts the Corporate Venturing Insider podcast to spotlight best practices in venture investing. He currently serves on the boards of AutoFlight, Faction, Metalenz, Sagence AI, Virewirx, and TDK Ventures. Prior to TDK, Nicolas held leadership roles at InvenSense—managing strategic relationships with Google and Qualcomm—and at NXP Software, where he oversaw global sales and OEM strategy. Nicolas holds an engineering degree from ISEN in France, studied at King's College London through Erasmus, and is an alumnus of Stanford GSB and Harvard Business School's Corporate Director program."
     },
     { 
       name: "Ian Krieger", 
       title: "Innovation Officer APJ, ServiceNow", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Ian-Krieger.jpg"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Ian-Krieger.jpg",
+      bio: "Ian Krieger is an Innovation Officer for ServiceNow in Asia Pacific & Japan and a former regional Chief Technology Officer. He has led end-to-end transformations across highly regulated industries - public sector, financial services, and telecommunications, spanning platform strategy, cloud migration, service modernisation, and AI-enabled operations. Ian is recognised for aligning C-suite ambition with the realities of technology, risk, and delivery, rescuing high-stakes programs, and scaling new capabilities with measurable outcomes. His leadership blends hands-on engineering depth with executive stakeholder management, focusing teams on resilience, reliability, and customer experience. He brings a CTO's lens on what it takes to move from pilot to production and scale innovation safely."
     },
     { 
       name: "Dr. Kid – Supachai Parchariyanon", 
       title: "CEO and Co-Founder, RISE", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Kid-Supachai.jpg"
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Kid-Supachai.jpg",
+      bio: "Dr. Kid is the CEO and Co-Founder of RISE, a corporate innovation powerhouse on a mission to drive 1% GDP growth and reduce 1% carbon emissions across Southeast Asia. RISE has partnered with over 400 large conglomerates and government agencies to build innovation capabilities, accelerating more than 2,000 startups valued at over $2 billion. He is also the Managing Partner of SeaX Ventures, a US-based DeepTech VC fund investing in exponential technologies globally."
     }
   ];
+
+  const handleSpeakerClick = (speaker: typeof speakers[0]) => {
+    setSelectedSpeaker(speaker);
+    setIsDialogOpen(true);
+  };
 
   // Function to check if image URL actually loads
   const checkImageExists = (url: string): Promise<boolean> => {
@@ -170,12 +182,16 @@ const Summit2025 = () => {
             {validSpeakers.length > 0 ? (
               <>
                 {validSpeakers.map((speaker, index) => (
-                  <div key={index} className="text-center group">
+                  <div 
+                    key={index} 
+                    className="text-center group cursor-pointer"
+                    onClick={() => handleSpeakerClick(speaker)}
+                  >
                     <div className="relative mb-4 mx-auto w-32 h-32">
                       <img 
                         src={speaker.image} 
                         alt={speaker.name}
-                        className="w-32 h-32 object-cover rounded-lg border-4 border-primary/20 group-hover:border-primary transition-colors duration-300"
+                        className="w-32 h-32 object-cover rounded-lg border-4 border-primary/20 group-hover:border-primary group-hover:scale-105 transition-all duration-300"
                       />
                     </div>
                     <h3 className="font-semibold text-lg mb-1">{speaker.name}</h3>
@@ -205,6 +221,36 @@ const Summit2025 = () => {
             )}
           </div>
         </div>
+
+        {/* Speaker Bio Dialog */}
+        <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+          <DialogContent className="max-w-2xl">
+            {selectedSpeaker && (
+              <>
+                <DialogHeader>
+                  <div className="flex items-center gap-4 mb-4">
+                    <img 
+                      src={selectedSpeaker.image} 
+                      alt={selectedSpeaker.name}
+                      className="w-24 h-24 object-cover rounded-lg border-2 border-primary/20"
+                    />
+                    <div className="text-left">
+                      <DialogTitle className="text-2xl mb-1">
+                        {selectedSpeaker.name}
+                      </DialogTitle>
+                      <p className="text-muted-foreground">
+                        {selectedSpeaker.title}
+                      </p>
+                    </div>
+                  </div>
+                </DialogHeader>
+                <DialogDescription className="text-base leading-relaxed text-foreground">
+                  {selectedSpeaker.bio}
+                </DialogDescription>
+              </>
+            )}
+          </DialogContent>
+        </Dialog>
 
         {/* NDA & Access Information */}
         <div className="mb-16">
