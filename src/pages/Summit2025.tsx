@@ -11,6 +11,7 @@ const Summit2025 = () => {
   const [validSpeakers, setValidSpeakers] = useState<any[]>([]);
   const [selectedSpeaker, setSelectedSpeaker] = useState<any>(null);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isPartnerDialogOpen, setIsPartnerDialogOpen] = useState(false);
 
   const speakers = [
     { 
@@ -252,6 +253,31 @@ const Summit2025 = () => {
           </DialogContent>
         </Dialog>
 
+        {/* Event Partner Dialog */}
+        <Dialog open={isPartnerDialogOpen} onOpenChange={setIsPartnerDialogOpen}>
+          <DialogContent className="max-w-lg">
+            <DialogHeader>
+              <DialogTitle className="text-2xl mb-4">
+                InterContinental Perth City Centre
+              </DialogTitle>
+            </DialogHeader>
+            <DialogDescription className="text-base leading-relaxed text-foreground space-y-4">
+              <p>
+                The InterContinental Perth City Centre is our hotel of choice for this year's Summit! Located right in the heart of the city, it's the perfect base for your Perth experience.
+              </p>
+              <p>
+                🌟 CI Summit attendees enjoy a percentage off the best flexible rate!
+              </p>
+              <p>
+                To access the discount code and booking details, simply email us at{' '}
+                <a href="mailto:info@corporateinnovation.org.au" className="text-primary hover:underline">
+                  info@corporateinnovation.org.au
+                </a>
+              </p>
+            </DialogDescription>
+          </DialogContent>
+        </Dialog>
+
         {/* NDA & Access Information */}
         <div className="mb-16">
           <Card className="border-0 shadow-soft bg-accent/50">
@@ -483,7 +509,15 @@ const Summit2025 = () => {
                 <h3 className="text-xl font-semibold text-center mb-6">Event Partner</h3>
                 <div className="flex flex-wrap justify-center items-center gap-6">
                    {sponsors.eventPartner.map((sponsor, index) => (
-                     <div key={index} className="bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300">
+                     <div 
+                       key={index} 
+                       className={`bg-background rounded-lg p-4 shadow-soft border hover:shadow-elegant transition-all duration-300 ${sponsor.name === 'IHG' ? 'cursor-pointer' : ''}`}
+                       onClick={() => {
+                         if (sponsor.name === 'IHG') {
+                           setIsPartnerDialogOpen(true);
+                         }
+                       }}
+                     >
                        {sponsor.logo ? (
                          <img 
                            src={sponsor.logo} 
