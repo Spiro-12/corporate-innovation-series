@@ -21,9 +21,9 @@ const Summit2025 = () => {
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Nicolas-Sauvage.png"
     },
     { 
-      name: "Georg Kuegerl", 
-      title: "Deputy GM of Technology and IP Headquarters, TDK", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Georg-Kuegerl.png"
+      name: "Ian Krieger", 
+      title: "Innovation Officer APJ, ServiceNow", 
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Ian-Krieger.png"
     },
     { 
       name: "Dr. Kid – Supachai Parchariyanon", 
@@ -97,7 +97,8 @@ const Summit2025 = () => {
       { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com.au" }
     ],
     eventPartner: [
-      { name: "TBC", logo: "https://logo.clearbit.com/aimwa.com" }
+      { name: "TBC", logo: "https://logo.clearbit.com/aimwa.com" },
+      { name: "IHG", logo: "https://logo.clearbit.com/IHG.com" }
     ]
   };
 
