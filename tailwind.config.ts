@@ -30,12 +30,9 @@ export default {
 					glow: 'hsl(var(--primary-glow))'
 				},
 				brand: {
-					purple: 'hsl(var(--brand-purple))',
-					'purple-light': 'hsl(var(--brand-purple-light))',
-					'purple-dark': 'hsl(var(--brand-purple-dark))',
-					blue: 'hsl(var(--brand-blue))',
-					'blue-light': 'hsl(var(--brand-blue-light))',
 					cyan: 'hsl(var(--brand-cyan))',
+					'cyan-light': 'hsl(var(--brand-cyan-light))',
+					'cyan-dark': 'hsl(var(--brand-cyan-dark))',
 					gray: 'hsl(var(--brand-gray))',
 					'gray-light': 'hsl(var(--brand-gray-light))'
 				},
