@@ -7,7 +7,7 @@
 @layer base {
   :root {
     --background: 245 65% 95%;
-    --foreground: 0 0% 100%;
+    --foreground: 210 22% 15%;
 
     --card: 0 0% 100%;
     --card-foreground: 210 22% 15%;
@@ -121,7 +121,7 @@
 
   body {
     @apply text-foreground;
-    background: linear-gradient(135deg, #7c3aed 0%, #5b9ef6 50%, #a855f7 100%);
+    background: linear-gradient(135deg, #24bcfc 0%, #5929bf 100%);
     background-attachment: fixed;
     min-height: 100vh;
   }
@@ -136,9 +136,9 @@ body::before {
   width: 100%;
   height: 100%;
   background: 
-    radial-gradient(circle at 80% 20%, rgba(168, 85, 247, 0.4) 0%, transparent 50%),
-    radial-gradient(circle at 20% 80%, rgba(91, 158, 246, 0.4) 0%, transparent 50%),
-    radial-gradient(circle at 60% 60%, rgba(124, 58, 237, 0.3) 0%, transparent 40%);
+    radial-gradient(circle at 80% 20%, rgba(89, 41, 191, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(36, 188, 252, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 60% 60%, rgba(89, 41, 191, 0.3) 0%, transparent 40%);
   pointer-events: none;
   z-index: 0;
 }
