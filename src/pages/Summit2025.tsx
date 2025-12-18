@@ -77,7 +77,7 @@ const Summit2025 = () => {
     { 
       name: "Olliver Bazzani", 
       title: "Director, Biodesign Australia and Perth Biodesign", 
-      image: "",
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Olliver-Bazzani.jpg",
       bio: "Biography coming soon."
     },
     { 
@@ -89,13 +89,13 @@ const Summit2025 = () => {
     { 
       name: "Tracey Wilkinson", 
       title: "Director Stakeholder Engagement WA, MTPConnect and the WA Life Sciences Innovation Hub", 
-      image: "",
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Tracey-Wilkinson.png",
       bio: "Biography coming soon."
     },
     { 
       name: "Caroline Chapman", 
       title: "Director, Floreat Innovation Park Project", 
-      image: "",
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Caroline-Chapman.jpg",
       bio: "Biography coming soon."
     },
     { 
@@ -107,7 +107,7 @@ const Summit2025 = () => {
     { 
       name: "Henning Prommer", 
       title: "Co-founder and Director, Ekion", 
-      image: "",
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Henning-Prommer.png",
       bio: "Biography coming soon."
     },
     { 
