@@ -101,7 +101,7 @@ const Summit2025 = () => {
     { 
       name: "Tamryn Barker", 
       title: "CEO & Co-Founder, Skalata", 
-      image: "",
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Tamryn-Barker.png",
       bio: "Biography coming soon."
     },
     { 
@@ -210,7 +210,7 @@ const Summit2025 = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-gradient-to-r from-primary to-primary-glow text-white">
-            Event Complete
+            Event Completed
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight mb-6">2025 Innovation Summit</h1>
           <div className="flex items-center justify-center gap-6 text-muted-foreground mb-6">
