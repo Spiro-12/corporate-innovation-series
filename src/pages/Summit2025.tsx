@@ -46,73 +46,79 @@ const Summit2025 = () => {
     },
     { 
       name: "Justyna Dąbrowska PhD", 
-      title: "Research Fellow, UWA", 
+      title: "Vice Chancellor's Research Fellow, RMIT", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Marcone Siqueira", 
-      title: "CEO, The Bakery", 
+      title: "Global CEO, The Bakery", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Steven Vassiloudis", 
-      title: "Head of Group Strategy, RAC", 
+      title: "Founder and CEO, Novalith Technologies", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Spiro El Khoury", 
-      title: "Partner, Cicada Innovations & Co-Founder, Corporate Innovation Australia", 
+      title: "Head of Growth, The Bakery", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Nikki Madden", 
-      title: "Co-Founder & CEO, Earlywork", 
+      title: "Innovation Partner, Aurecon", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Olliver Bazzani", 
-      title: "Open Innovation Lead, Rio Tinto", 
+      title: "Director, Biodesign Australia and Perth Biodesign", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Nikhilesh Bappo", 
-      title: "Group Head Strategy & Innovation, Coventry Group", 
+      title: "Co-founder and CEO, VeinTech", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Tracey Wilkinson", 
-      title: "Executive Manager Strategy & Transformation, Synergy", 
+      title: "Director Stakeholder Engagement WA, MTPConnect and the WA Life Sciences Innovation Hub", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Caroline Chapman", 
-      title: "Head of Growth, Covad", 
+      title: "Director, Floreat Innovation Park Project", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Tamryn Barker", 
-      title: "CEO & Co-Founder, Skalata", 
+      title: "Senior Director Mining & Nature Tech, Founders Factory", 
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Tamryn-Barker.png",
       bio: "Biography coming soon."
     },
     { 
       name: "Henning Prommer", 
-      title: "Chief Innovation Officer, GHD", 
+      title: "Co-founder and Director, Ekion", 
       image: "",
       bio: "Biography coming soon."
     },
     { 
       name: "Holly Bridgwater", 
-      title: "Head of Corporate Innovation, Telstra", 
+      title: "Director, Unearthed", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Brad Hill", 
+      title: "Co-General Manager, Pollinators", 
       image: "",
       bio: "Biography coming soon."
     },
