@@ -15,12 +15,6 @@ const Summit2025 = () => {
 
   const speakers = [
     { 
-      name: "Justin Greenstein", 
-      title: "CEO, 1835i", 
-      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Justin-Greenstein.png",
-      bio: "Biography coming soon."
-    },
-    { 
       name: "Nicolas Sauvage", 
       title: "President, TDK Ventures", 
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Nicolas-Sauvage.png",
@@ -37,6 +31,18 @@ const Summit2025 = () => {
       title: "CEO and Co-Founder, RISE", 
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Kid-Supachai.jpg",
       bio: "Dr. Kid is the CEO and Co-Founder of RISE, a corporate innovation powerhouse on a mission to drive 1% GDP growth and reduce 1% carbon emissions across Southeast Asia. RISE has partnered with over 400 large conglomerates and government agencies to build innovation capabilities, accelerating more than 2,000 startups valued at over $2 billion. He is also the Managing Partner of SeaX Ventures, a US-based DeepTech VC fund investing in exponential technologies globally."
+    },
+    { 
+      name: "Isabelle Charter", 
+      title: "Head of Venture Studio, Betterlabs", 
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Isabelle-Charter.jpg",
+      bio: "Isabelle Charter is Head of the BetterLabs Venture Studio, RAC’s corporate innovation fund. She also leads Town Square, a fast-scaling startup revolutionising strata management, and previously built and sold Drip, Australia’s first investing app for under-18s. With nearly 20 years in startups (aka 147 in founder years 🧓), she’s started, scaled, sold, and killed ventures — now channelling that experience into helping founders grow faster, smarter, and bolder, while redefining what a venture studio can be. With her community hat on, Isabelle serves on the board of Meridian Global Foundation and mentors through programs including Plus Eight Accelerator, She Thrives, and Curtin Ignition."
+    },
+    { 
+      name: "Kemal Anbarci", 
+      title: "Managing Executive and GM of Venture Capital, Chevron Tech Ventures", 
+      image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Kemal-Anbarci.jpg",
+      bio: "Kemal Anbarci is the Managing Executive and General Manager of Venture Capital at Chevron Technology Ventures—the longest-running and continuously operating corporate venture capital (CVC) arm in the energy industry. He has held this position since 2013. Kemal has been with Chevron for over 30 years, serving in a variety of roles across engineering, technology management, and commercial functions. He holds a B.S. in Petroleum Engineering from Middle East Technical University in Ankara, Turkey; an M.S. in Operations Research; M.S. and Ph.D. degrees in Petroleum and Natural Gas Engineering from Pennsylvania State University; and an MBA from the University of California, Irvine."
     }
   ];
 
