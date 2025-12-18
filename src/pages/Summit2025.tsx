@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { useState, useEffect } from "react";
 
-import { Calendar, MapPin, Shield, Users, Lightbulb, UserPlus, Mic, Handshake, DollarSign } from "lucide-react";
+import { Calendar, MapPin, Shield, Users, Lightbulb, Mic, Handshake, DollarSign } from "lucide-react";
 import Layout from "@/components/layout/Layout";
 
 const Summit2025 = () => {
@@ -36,13 +36,91 @@ const Summit2025 = () => {
       name: "Isabelle Charter", 
       title: "Head of Venture Studio, Betterlabs", 
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2025/Isabelle-Charter.jpg",
-      bio: "Isabelle Charter is Head of the BetterLabs Venture Studio, RAC’s corporate innovation fund. She also leads Town Square, a fast-scaling startup revolutionising strata management, and previously built and sold Drip, Australia’s first investing app for under-18s. With nearly 20 years in startups (aka 147 in founder years 🧓), she’s started, scaled, sold, and killed ventures — now channelling that experience into helping founders grow faster, smarter, and bolder, while redefining what a venture studio can be. With her community hat on, Isabelle serves on the board of Meridian Global Foundation and mentors through programs including Plus Eight Accelerator, She Thrives, and Curtin Ignition."
+      bio: "Isabelle Charter is Head of the BetterLabs Venture Studio, RAC's corporate innovation fund. She also leads Town Square, a fast-scaling startup revolutionising strata management, and previously built and sold Drip, Australia's first investing app for under-18s. With nearly 20 years in startups (aka 147 in founder years 🧓), she's started, scaled, sold, and killed ventures — now channelling that experience into helping founders grow faster, smarter, and bolder, while redefining what a venture studio can be. With her community hat on, Isabelle serves on the board of Meridian Global Foundation and mentors through programs including Plus Eight Accelerator, She Thrives, and Curtin Ignition."
     },
     { 
       name: "Kemal Anbarci", 
       title: "Managing Executive and GM of Venture Capital, Chevron Tech Ventures", 
       image: "https://cdn.jsdelivr.net/gh/Spiro-12/corporate-spark-site@main/assets/images/speakers/2024/Kemal-Anbarci.jpg",
       bio: "Kemal Anbarci is the Managing Executive and General Manager of Venture Capital at Chevron Technology Ventures—the longest-running and continuously operating corporate venture capital (CVC) arm in the energy industry. He has held this position since 2013. Kemal has been with Chevron for over 30 years, serving in a variety of roles across engineering, technology management, and commercial functions. He holds a B.S. in Petroleum Engineering from Middle East Technical University in Ankara, Turkey; an M.S. in Operations Research; M.S. and Ph.D. degrees in Petroleum and Natural Gas Engineering from Pennsylvania State University; and an MBA from the University of California, Irvine."
+    },
+    { 
+      name: "Justyna Dąbrowska PhD", 
+      title: "Research Fellow, UWA", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Marcone Siqueira", 
+      title: "CEO, The Bakery", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Steven Vassiloudis", 
+      title: "Head of Group Strategy, RAC", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Spiro El Khoury", 
+      title: "Partner, Cicada Innovations & Co-Founder, Corporate Innovation Australia", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Nikki Madden", 
+      title: "Co-Founder & CEO, Earlywork", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Olliver Bazzani", 
+      title: "Open Innovation Lead, Rio Tinto", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Nikhilesh Bappo", 
+      title: "Group Head Strategy & Innovation, Coventry Group", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Tracey Wilkinson", 
+      title: "Executive Manager Strategy & Transformation, Synergy", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Caroline Chapman", 
+      title: "Head of Growth, Covad", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Tamryn Barker", 
+      title: "CEO & Co-Founder, Skalata", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Henning Prommer", 
+      title: "Chief Innovation Officer, GHD", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Holly Bridgwater", 
+      title: "Head of Corporate Innovation, Telstra", 
+      image: "",
+      bio: "Biography coming soon."
+    },
+    { 
+      name: "Brad Hill", 
+      title: "Executive Manager Digital Services, Bankwest", 
+      image: "",
+      bio: "Biography coming soon."
     }
   ];
 
@@ -116,7 +194,7 @@ const Summit2025 = () => {
       { name: "West Tech Fest", logo: "https://logo.clearbit.com/westtechfest.com.au" }
     ],
     eventPartner: [
-      { name: "TBC", logo: "https://logo.clearbit.com/aimwa.com" },
+      { name: "AIM WA", logo: "https://logo.clearbit.com/aimwa.com" },
       { name: "IHG", logo: "https://logo.clearbit.com/IHG.com" }
     ]
   };
@@ -132,7 +210,7 @@ const Summit2025 = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-gradient-to-r from-primary to-primary-glow text-white">
-            Early Bird Registration Open
+            Event Complete
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight mb-6">2025 Innovation Summit</h1>
           <div className="flex items-center justify-center gap-6 text-muted-foreground mb-6">
@@ -157,9 +235,9 @@ const Summit2025 = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90"
-              onClick={() => window.open('https://events.humanitix.com/corporate-innovation-summit-2025', '_blank')}
+              disabled
             >
-              Register Now
+              Stay Tuned for Highlights
             </Button>
           </div>
         </div>
@@ -184,7 +262,7 @@ const Summit2025 = () => {
 
         {/* Speakers */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Confirmed Speakers</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">2025 Speakers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {validSpeakers.length > 0 ? (
               <>
@@ -205,17 +283,6 @@ const Summit2025 = () => {
                     <p className="text-sm text-muted-foreground">{speaker.title}</p>
                   </div>
                 ))}
-                
-                {/* More speakers coming card */}
-                <div className="text-center group">
-                  <div className="relative mb-4 mx-auto w-32 h-32">
-                    <div className="w-32 h-32 border-4 border-dashed border-primary/30 rounded-lg flex items-center justify-center bg-primary/5 group-hover:bg-primary/10 transition-colors duration-300">
-                      <UserPlus className="h-8 w-8 text-primary/60 group-hover:text-primary transition-colors duration-300" />
-                    </div>
-                  </div>
-                  <h3 className="font-semibold text-lg mb-1 text-primary">More speakers</h3>
-                  <p className="text-sm text-muted-foreground">to be confirmed soon!</p>
-                </div>
               </>
             ) : (
               <div className="col-span-full text-center py-12">
